@@ -131,23 +131,35 @@ input {
   font-family: "G TEesti Pro Display";
 }
 
+button:not(:disabled) {
+  cursor: pointer;
+}
+button:hover {
+  background-image: none;
+  background-color: #ffffff;
+  border: 2px solid #6aaf5c;
+  color: #6aaf5c !important;
+  transition: .3s;
+}
+
 button {
-  width: 290px;
+  width: 268px;
   height: 75px;
-  border-radius: 37px;
-  box-shadow: 4px 7px 20px rgb(82 151 34 / 21%);
-  background-image: url(/img/button.dd0f2ece.png);
-  background-repeat: no-repeat;
-  float: right;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  letter-spacing: 1px;
-  color: #ffffff;
-  font-family: "Muller Extra Bold";
-  font-weight: 800;
-  border: 0;
+  box-shadow: 6px 5px 20px rgb(82, 151, 34, 0.21);
+  border-radius: 38px;
+  background-color: #fff;
+  background-image: linear-gradient(
+      0deg,#6aaf5c 0,#52b709),linear-gradient(
+      36deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.16) 47%,hsla(0,0%,100%,.17) 50%,hsla(0,0%,100%,0));
+  color: #fff;
+  font-family: "Muller";
+  font-weight: 700;
+  font-size: 2.2em;
+  letter-spacing: normal;
+  line-height: 71.88px;
+  text-align: center;
+  border: 2px solid #6aaf5c;
+  margin-right: 1.5rem;
 }
 
 .link-item {

@@ -14,9 +14,9 @@
           Подберем и документально оформим IT-специалистов, после чего передадим исполнителей под ваше руководство. Вы
           получаете полное управление над сотрудниками, имея возможность контролировать и заменять IT штат.
         </div>
-        <div class="autorization">
+        <button class="autorization">
           Войти
-        </div>
+        </button>
       </div>
     </div>
   </section>
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  name: "Outstaffing"
+  name: "Outstaffing",
 }
 </script>
 
@@ -34,6 +34,36 @@ export default {
   position: relative;
   padding-top: 95px;
 }
+button:not(:disabled) {
+ cursor: pointer;
+}
+button:hover {
+  background-image: none;
+  background-color: #ffffff;
+  border: 2px solid #6aaf5c;
+  color: #6aaf5c !important;
+  transition: .3s;
+}
+.autorization {
+  margin-top: 83px;
+  width: 268px;
+  height: 75px;
+  box-shadow: 6px 5px 20px rgb(82, 151, 34, 0.21);
+  border-radius: 38px;
+  background-color: #fff;
+  background-image: linear-gradient(
+      0deg,#6aaf5c 0,#52b709),linear-gradient(
+      36deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.16) 47%,hsla(0,0%,100%,.17) 50%,hsla(0,0%,100%,0));
+  color: #fff;
+  font-family: "Muller";
+  font-weight: 700;
+  font-size: 2.2em;
+  letter-spacing: normal;
+  line-height: 71.88px;
+  text-align: center;
+  border: 2px solid #6aaf5c;
+  margin-right: 1.5rem;
+}
 
 .container {
   position: relative;
@@ -42,6 +72,7 @@ export default {
 .wrapper {
   width: 100%;
   display: inline-grid;
+  justify-content: flex-end;
   padding-bottom: 97px;
 }
 
@@ -64,29 +95,6 @@ img.background-circle {
   left: 140px;
 }
 
-.autorization {
-  width: 290px;
-  height: 75px;
-  border-radius: 37px;
-
-  box-shadow: 4px 7px 20px rgba(82, 151, 34, 0.21);
-  background-image: url("../../assets/img/button.png");
-  background-repeat: no-repeat;
-  float: right;
-  margin-right: 660px;
-  margin-top: 80px;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  letter-spacing: 1px;
-  color: #ffffff;
-  font-family: "Muller Extra Bold";
-  font-weight: 800;
-
-}
-
 h1 {
   font-family: "G TEesti Pro Display";
   display: flex;
@@ -98,6 +106,7 @@ h1 {
 }
 
 .paragraph {
+  padding-left: 15px;
   font-size: 26px;
   line-height: 29px;
   color: #000000;
