@@ -1,0 +1,166 @@
+<template>
+  <section class="it_specialist">
+    <div class="number-specialist">
+      20 специалистов
+    </div>
+    <div class="container">
+      <div class="wrapper">
+        <h2>Своя база
+          <div class="h2--green">
+            &nbsp;IT-специалистов
+          </div>
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-410">
+          <div class="wrapper-410">
+            <div class="heading">
+              Наша первоочередная цель –
+            </div>
+            <div class="paragraph">
+              обеспечить цифровое лидерство вашего бренда благодаря высокой квалификации наших разработчиков, передовым
+              техлогиями и прозрачным процессом.
+            </div>
+          </div>
+        </div>
+        <div class="col-670">
+          <div class="background-img-green">
+            <div class="heading">
+              Упор на качественный продукт
+            </div>
+          </div>
+          <div class="paragraph">Оперативно подключим к вашему проекту команду IT-специалистов.</div>
+          <div class="paragraph">Гибкие ставки. Все кандидаты уровня Middle, Senior.<br>
+            Быстрый выход на проекты.Гибкие ставки. Все кандидаты уровня
+            Middle, Senior. Быстрый выход на проекты.Гибкие ставки. В<br>
+            се кандидаты уровня Middle, Senior. Быстрый выход на проекты.Гибк<br>
+            ие ставки. Все кандидаты уровня Middle, Senior. Быстрый выход на
+            проекты.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: "ItSpecialist"
+}
+</script>
+
+<style scoped>
+.it_specialist {
+  background-color: #f4f7f7;
+  position: relative;
+  display: grid;
+  z-index: -1;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper-410 {
+  text-align: left;
+  padding: 96px 60px;
+}
+
+.wrapper-410 .heading {
+  padding-bottom: 30px;
+}
+
+.col-410 {
+  max-width: 410px;
+  width: 100%;
+  margin-right: 50px;
+  margin-left: 30px;
+  background-color: #e1fccf;
+  border-radius: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: #0f0000;
+  font-family: "G TEesti Pro Display";
+  font-weight: 300;
+}
+
+.paragraph + .paragraph {
+  margin-top: 25px;
+  max-width: 610px;
+}
+
+.wrapper-410 .heading {
+  font-size: 30px;
+  color: #000000;
+  font-family: "G TEesti Pro Display";
+  font-weight: 500;
+}
+
+.col-670 .paragraph {
+  margin-left: 35px;
+  text-align: left;
+  max-width: 670px;
+  width: 100%;
+}
+
+.background-img-green .heading {
+  padding: 55px;
+  font-size: 30px;
+  line-height: 47px;
+  color: #000000;
+  font-family: "G TEesti Pro Display";
+  font-weight: 500;
+}
+
+.background-img-green {
+  background-image: url("../../assets/img/background-green.png");
+  margin-top: 24px;
+  margin-bottom: 90px;
+}
+
+.number-specialist {
+  position: absolute;
+  top: 130px;
+  left: 70px;
+  -webkit-transform: rotate(
+      -90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(
+      -90deg);
+  font-size: 21px;
+  line-height: 37px;
+  color: #000000;
+  font-family: "G TEesti Pro Display";
+}
+
+.container {
+  padding: 0 290px;
+}
+
+.container h2 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 78px;
+  color: #282828;
+  font-family: "G TEesti Pro Display";
+  font-weight: bold;
+  float: right;
+}
+
+h2 {
+  display: flex;
+}
+
+.h2--green {
+  color: #52b709;
+}
+</style>
