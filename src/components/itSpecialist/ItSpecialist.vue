@@ -3,6 +3,9 @@
     <div class="number-specialist">
       20 специалистов
     </div>
+    <div class="square">
+      <img src="../../assets/img/2block/1.png" alt="1">
+    </div>
     <div class="container">
       <div class="wrapper">
         <h2>Своя база
@@ -44,17 +47,46 @@
 </template>
 
 <script>
+import ScrollReveal from 'scrollreveal';
+
 export default {
-  name: "ItSpecialist"
+  name: "ItSpecialist",
+  methods: {
+    getScroll: function () {
+      ScrollReveal().reveal('.square', {})
+    }
+  },
+  mounted() {
+    this.getScroll()
+  }
 }
 </script>
 
 <style scoped>
+@keyframes moving {
+  from {
+    transform: rotate(0)
+  }
+  to {
+    transform: rotate(-360deg)
+  }
+}
+
+.square img {
+  animation: 20s moving infinite linear;
+}
+
 .it_specialist {
   background-color: #f4f7f7;
   position: relative;
   display: grid;
   z-index: -1;
+}
+
+.square {
+  position: absolute;
+  left: 233px;
+  top: 38px;
 }
 
 .wrapper {
