@@ -169,13 +169,6 @@ img.background-circle {
   z-index: 0;
 }
 
-.background-img {
-  position: absolute;
-  top: 1458px;
-  left: 45px;
-  z-index: 1;
-}
-
 .arrow-right-top {
   position: absolute;
   top: 60px;
@@ -218,7 +211,6 @@ h2 {
   letter-spacing: 10px;
   line-height: 60px;
   color: #c3c5c5;
-  /*padding-bottom: 105px;*/
   margin-bottom: 0;
   margin-top: 0;
   font-family: "G TEesti Pro Display";
