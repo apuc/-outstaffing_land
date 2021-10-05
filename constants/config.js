@@ -1,10 +1,10 @@
 export const CONFIG_IMG_SHOW = {
-    reset: true,
-    duration: 1600,
-    distance: '0px',
-    // opacity: 0.8,
-    viewFactor: 0.5,
-    viewOffset: {
-        top: 60
+    reset: true, // должен ли элемент исчезать?
+    duration: 1250, // длительность анимации
+    distance: '50px', // дистанция отдаления
+    origin: 'top', // с какой стороны будет выполняться анимация
+    viewFactor: 0.5, // где-то с середины начинает выполняться анимация
+    viewOffset: { // отступ от элемента(начало анимации)
+         top: 100
     }
 }
