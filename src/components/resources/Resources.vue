@@ -287,4 +287,10 @@ h2 {
   font-family: "G TEesti Pro Display";
   font-weight: bold;
 }
+@media only screen and (max-width: 425px) {
+  .container-absolute-resources {
+    display: none;
+  }
+}
+
 </style>
