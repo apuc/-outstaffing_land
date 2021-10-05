@@ -1,38 +1,15 @@
 <template>
   <section class="outstaffing">
-    <div class="container-absolute-outstaffing" style="position: absolute; top: 285px;left: 135px;z-index: 10;">
-      <img class="img-1" src="../../assets/img/1block/1.png" alt="1"
-           style="position:absolute;top:0;left: 0;z-index: -1;">
-      <img class="img-2" src="../../assets/img/1block/2.png" alt="2"
-           style="position:absolute;top: 313px;left: 299px;z-index: 1;">
-      <img class="img-3" src="../../assets/img/1block/3.png" alt="3" style="     position: absolute;
-    top: 368px;
-    left: 599px;
-    z-index: 1;">
-      <img class="img-4" src="../../assets/img/1block/4.png" alt="4" style=" position: absolute;
-    top: 393px;
-    left: 5px;
-    z-index: 1;">
-      <img class="img-5" src="../../assets/img/1block/5.png" alt="5" style="    position: absolute;
-    top: 493px;
-    left: 440px;
-    z-index: 1;">
-      <img class="img-6" src="../../assets/img/1block/6.png" alt="6" style="    position: absolute;
-    top: 483px;
-    left: 239px;
-    z-index: 1;">
-      <img class="img-7" src="../../assets/img/1block/7.png" alt="7" style="    position: absolute;
-    top: 488px;
-    z-index: 1;
-    left: 170px;">
-      <img class="img-8" src="../../assets/img/1block/8.png" alt="8" style="    position: absolute;
-    top: 505px;
-    left: 334px;
-    z-index: 1;">
-      <img class="img-9" src="../../assets/img/1block/9.png" alt="9" style="    position: absolute;
-    top: 636px;
-    left: 498px;
-    z-index: 1;">
+    <div class="container-absolute-outstaffing">
+      <img class="img-1" src="../../assets/img/1block/1.png" alt="1">
+      <img class="img-2" src="../../assets/img/1block/2.png" alt="2">
+      <img class="img-3" src="../../assets/img/1block/3.png" alt="3">
+      <img class="img-4" src="../../assets/img/1block/4.png" alt="4">
+      <img class="img-5" src="../../assets/img/1block/5.png" alt="5">
+      <img class="img-6" src="../../assets/img/1block/6.png" alt="6">
+      <img class="img-7" src="../../assets/img/1block/7.png" alt="7">
+      <img class="img-8" src="../../assets/img/1block/8.png" alt="8">
+      <img class="img-9" src="../../assets/img/1block/9.png" alt="9">
     </div>
     <img class="background-circle" src="../../assets/img/circle-background.png" alt="background-circle">
     <h2 class="z-index-1">RUBY ON RAIlS - PHP - PYTHON - VUE.JS - REACT. JS</h2>
@@ -65,10 +42,8 @@ export default {
   methods: {
     getScroll: function () {
       for (let i = 1; i < 10; i++) {
-        console.log(i)
         ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
       }
-
     }
   },
   mounted() {
@@ -82,6 +57,67 @@ export default {
   background-color: #f4f7f7;
   position: relative;
   padding-top: 95px;
+}
+
+.container-absolute-outstaffing .img-1 {
+  z-index: -1;
+}
+
+.container-absolute-outstaffing {
+  position: absolute;
+  top: 285px;
+  left: 135px;
+  z-index: 10;
+}
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+  position: absolute;
+  z-index: 1;
+}
+
+.img-1 {
+  top: 0;
+  left: 0;
+}
+
+.img-2 {
+  top: 313px;
+  left: 299px;
+}
+
+.img-3 {
+  top: 368px;
+  left: 599px;
+}
+
+.img-4 {
+  top: 393px;
+  left: 5px;
+}
+
+.img-5 {
+  top: 493px;
+  left: 440px;
+}
+
+.img-6 {
+  top: 483px;
+  left: 239px;
+}
+
+.img-7 {
+  top: 488px;
+  left: 170px;
+}
+
+.img-8 {
+  top: 505px;
+  left: 334px;
+}
+
+.img-9 {
+  top: 636px;
+  left: 498px;
 }
 
 button:not(:disabled) {
