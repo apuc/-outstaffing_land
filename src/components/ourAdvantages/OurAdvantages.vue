@@ -189,4 +189,9 @@ h2 {
 .wrapper-content {
   margin-left: 30px;
 }
+@media only screen and (max-width: 425px) {
+  .container-absolute-our-advantages {
+    display: none;
+  }
+}
 </style>
