@@ -291,4 +291,9 @@ h2 {
 .h2--green {
   color: #52b709;
 }
+@media only screen and (max-width: 425px) {
+  .container-absolute-it-specialist {
+    display: none;
+  }
+}
 </style>
