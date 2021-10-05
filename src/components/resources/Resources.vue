@@ -1,6 +1,17 @@
 <template>
-  <section class="resources-and-technology">
-    <img class="background-right" src="../../assets/img/background-right.png" alt="right">
+  <section class="resources-and-technology" style="position: relative;">
+    <div class="container-absolute-resources">
+      <img class="background-right" src="../../assets/img/background-right.png" alt="right">
+      <img src="../../assets/img/3block/1.png" alt="" class="img-1">
+      <img src="../../assets/img/3block/2.png" alt="" class="img-2">
+      <img src="../../assets/img/3block/3.png" alt="" class="img-3">
+      <img src="../../assets/img/3block/4.png" alt="" class="img-4">
+      <img src="../../assets/img/3block/5.png" alt="" class="img-5">
+      <img src="../../assets/img/3block/6.png" alt="" class="img-6">
+      <img src="../../assets/img/3block/7.png" alt="" class="img-7">
+      <img src="../../assets/img/3block/8.png" alt="" class="img-8">
+      <img src="../../assets/img/3block/9.png" alt="" class="img-9">
+    </div>
     <div class="container-background-white">
       <div class="wrapper">
         <div class="align-left-container">
@@ -63,12 +74,77 @@
 </template>
 
 <script>
+import ScrollReveal from 'scrollreveal';
+import {CONFIG_IMG_SHOW} from "../../../constants/config";
+
 export default {
-  name: "Resources"
+  name: "Resources",
+  methods: {
+    getScroll: function () {
+      for (let i = 1; i < 10; i++) {
+        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+      }
+    }
+  },
+  mounted() {
+    this.getScroll()
+  }
 }
 </script>
 
 <style scoped>
+.container-absolute-resources, .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+  position: absolute;
+}
+
+.container-absolute-resources {
+  top: 0;right:0;
+}
+
+.img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9{
+  z-index: 1;
+}
+
+.img-1 {
+  top: 125px;
+  right: 149px;
+  z-index: 1;
+}
+.img-2 {
+  top: 324px;
+  right: 492px;
+  z-index: 2;
+}
+.img-3 {
+  top: 245px;
+  right: 426px;
+  z-index: 1;
+}
+.img-4 {
+  top: 564px;
+  right: 57px;
+}
+.img-5 {
+  top: 591px;
+  right: 397px;
+}
+.img-6 {
+  top: 726px;
+  right: 163px;
+}
+.img-7 {
+  top: 801px;
+  right: 367px;
+}
+.img-8 {
+  top: 698px;
+  right: 248px;
+}
+.img-9 {
+  top: 1035px;
+  right: 318px;
+  z-index: 3;
+}
 .wrapper-lang {
   padding-left: 38px;
   text-align: left;
@@ -93,6 +169,7 @@ export default {
   position: absolute;
   right: -240px;
   top: 1680px;
+  z-index: 3;
 }
 
 .align-left-container {
