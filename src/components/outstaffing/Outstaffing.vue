@@ -15,7 +15,6 @@
     <h2 class="z-index-1">RUBY ON RAIlS - PHP - PYTHON - VUE.JS - REACT. JS</h2>
     <div class="container">
       <img class="arrow-right-top" src="../../assets/img/arrow-right-top.png" alt="arrow-right-top">
-      <img class="background-img" src="../../assets/img/background-img.png" alt="background-circle">
       <h1>
         <div class="h1--black">IT</div>
         &nbsp;АУТСТАФИНГ
