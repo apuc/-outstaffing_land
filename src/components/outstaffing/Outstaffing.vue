@@ -55,7 +55,6 @@ export default {
 <style scoped>
 .outstaffing {
   background-color: #f4f7f7;
-  position: relative;
   padding-top: 95px;
 }
 
@@ -65,7 +64,7 @@ export default {
 
 .container-absolute-outstaffing {
   position: absolute;
-  top: 285px;
+  top: 472px;
   left: 135px;
   z-index: 10;
 }
@@ -166,13 +165,14 @@ button:hover {
 
 img.background-circle {
   position: absolute;
-  left: -20px;
-  top: -85px;
+  left: -177px;
+  top: 96px;
+  z-index: 0;
 }
 
 .background-img {
   position: absolute;
-  top: 30px;
+  top: 1458px;
   left: 45px;
   z-index: 1;
 }
