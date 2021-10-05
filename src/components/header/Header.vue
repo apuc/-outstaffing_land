@@ -38,10 +38,6 @@ export default {
 
 <style scoped>
 @font-face {
-  font-family: "G TEesti Pro Display";
-  src: url('../../assets/font/font.otf');
-}
-@font-face {
   font-family: 'G TEesti Pro Text';
   src: url('../../assets/font/GTEestiProText-ThinItalic.eot');
   src: local('G TEesti Pro Text Thin Italic'), local('../../assets/font/GTEestiProText-ThinItalic'),

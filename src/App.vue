@@ -17,14 +17,6 @@ export default {
 
 <style>
 
-@font-face {
-  font-family: "G TEesti Pro Display";
-  font-style: normal;
-  font-weight: 400;
-  /* Браузер сначала попробует найти шрифт локально */
-  src:  url("assets/font/font.otf") format("otf");
-}
-
 body {
   margin: 0;
   padding: 0;
