@@ -1,10 +1,25 @@
 <template>
   <section class="it_specialist">
-    <div class="number-specialist">
-      20 специалистов
-    </div>
-    <div class="square">
-      <img src="../../assets/img/2block/1.png" alt="1">
+    <div class="container-absolute-it-specialist">
+      <div class="number-specialist">
+        20 специалистов
+      </div>
+      <div class="square">
+        <img class="img-1" src="../../assets/img/2block/1.png" alt="1">
+      </div>
+      <img src="../../assets/img/2block/2.png" alt="" class="img-2">
+      <img src="../../assets/img/2block/3.png" alt="" class="img-3">
+      <img src="../../assets/img/2block/4.png" alt="" class="img-4">
+      <img src="../../assets/img/2block/5.png" alt="" class="img-5">
+      <img src="../../assets/img/2block/6.png" alt="" class="img-6">
+      <img src="../../assets/img/2block/7.png" alt="" class="img-7">
+      <img src="../../assets/img/2block/8.png" alt="" class="img-8">
+      <img src="../../assets/img/2block/9.png" alt="" class="img-9">
+      <img src="../../assets/img/2block/8.png" alt="" class="img-10">
+      <img src="../../assets/img/2block/8.png" alt="" class="img-11">
+      <img src="../../assets/img/2block/8.png" alt="" class="img-12">
+      <img src="../../assets/img/2block/8.png" alt="" class="img-13">
+      <img src="../../assets/img/2block/8.png" alt="" class="img-14">
     </div>
     <div class="container">
       <div class="wrapper">
@@ -48,12 +63,15 @@
 
 <script>
 import ScrollReveal from 'scrollreveal';
+import {CONFIG_IMG_SHOW} from "../../../constants/config";
 
 export default {
   name: "ItSpecialist",
   methods: {
     getScroll: function () {
-      ScrollReveal().reveal('.square', {})
+      for (let i = 1; i < 15; i++) {
+        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+      }
     }
   },
   mounted() {
@@ -76,9 +94,82 @@ export default {
   animation: 20s moving infinite linear;
 }
 
+.container-absolute-it-specialist, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14 {
+  position: absolute;
+}
+
+.img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14 {
+  z-index: 1;
+}
+
+.img-2 {
+  left: 192px;
+  top: 42px;
+}
+
+.img-3 {
+  left: 288px;
+  top: 23px;
+}
+
+.img-4 {
+  left: 319px;
+  top: 150px;
+}
+
+.img-5 {
+  top: 368px;
+  left: 58px;
+}
+
+.img-6 {
+  top: 465px;
+  left: 152px;
+}
+
+.img-7 {
+  top: 734px;
+  left: 45px;
+}
+
+.img-8 {
+  top: 710px;
+  left: 479px;
+}
+
+.img-9 {
+  top: -22px;
+  left: 709px;
+  z-index: 0;
+}
+
+.img-10 {
+  top: 762px;
+  left: 568px;
+}
+
+.img-11 {
+  top: 816px;
+  left: 661px;
+}
+
+.img-12 {
+  top: 866px;
+  left: 758px;
+}
+
+.img-13 {
+  top: 920px;
+  left: 851px;
+}
+
+.img-14 {
+  top: 978px;
+  left: 948px;
+}
+
 .it_specialist {
   background-color: #f4f7f7;
-  position: relative;
   display: grid;
   z-index: -1;
 }
@@ -160,6 +251,7 @@ export default {
 }
 
 .number-specialist {
+  width: 200px;
   position: absolute;
   top: 130px;
   left: 70px;
