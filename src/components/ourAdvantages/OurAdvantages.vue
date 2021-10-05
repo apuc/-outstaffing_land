@@ -1,6 +1,11 @@
 <template>
   <section class="our-advantages">
     <img class="arrow-right-top" src="../../assets/img/arrow-right-top.png" alt="arrow-right-top">
+    <div class="container-absolute-our-advantages">
+      <img src="../../assets/img/4block/1.png" alt="" class="img-1">
+      <img src="../../assets/img/4block/2.png" alt="" class="img-2">
+      <img src="../../assets/img/4block/3.png" alt="" class="img-3">
+    </div>
     <div class="container">
       <h2>Наши преимущества</h2>
       <div class="row">
@@ -76,12 +81,52 @@
 </template>
 
 <script>
+import ScrollReveal from 'scrollreveal';
+import {CONFIG_IMG_SHOW} from "../../../constants/config";
 export default {
-  name: "OurAdvantages"
+  name: "OurAdvantages",
+  methods: {
+    getScroll: function () {
+      for (let i = 1; i < 4; i++) {
+        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+      }
+    }
+  },
+  mounted() {
+    this.getScroll()
+  }
 }
 </script>
 
 <style scoped>
+.container-absolute-our-advantages {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.img-1, .img-2, .img-3 {
+  position: absolute;
+  z-index: 1;
+}
+
+.img-1 {
+  top: 30px;
+  right: 97px;
+  z-index: 1;
+}
+
+.img-2 {
+  top: 135px;
+  right: 241px;
+}
+
+.img-3 {
+  top: 377px;
+  right: 393px;
+  z-index: 0;
+}
+
 .our-advantages {
   position: relative;
   background-color: #f5f5f6;
