@@ -248,6 +248,10 @@ export default {
   background-image: url("../../assets/img/background-green.png");
   margin-top: 24px;
   margin-bottom: 90px;
+  moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 }
 
 .number-specialist {
