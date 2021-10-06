@@ -52,4 +52,19 @@ export default {
   font-weight: bold;
   text-align: left;
 }
+
+@media only screen and (max-width: 425px) {
+  .footer {
+    padding: 15px;
+    display: block;
+  }
+  .telephone__title {
+    text-align: center;
+  }
+  .about-us {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+}
 </style>
