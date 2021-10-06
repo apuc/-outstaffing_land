@@ -214,6 +214,26 @@ img {
   z-index: 2;
 }
 
+@media only screen and (max-width: 360px) {
+  .social-link {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+  }
+  .link-item {
+    width: 100%;
+    padding: 5px 0;
+  }
+  p {
+    margin-left: 30px;
+  }
+  input#login, input#password {
+    width: 154px;
+  }
+
+}
+
 @media only screen and (max-width: 425px) {
   .form {
     padding:15px;
