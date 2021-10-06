@@ -292,8 +292,45 @@ h2 {
   color: #52b709;
 }
 @media only screen and (max-width: 425px) {
+  .it_specialist {
+    padding: 15px;
+  }
   .container-absolute-it-specialist {
     display: none;
+  }
+  .container {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .row {
+    margin-top: 0;
+    display: inline-block
+  }
+  .wrapper {
+    justify-content: start;
+  }
+  .col-410 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .wrapper-410 {
+    padding: 40px;
+  }
+  .wrapper h2 {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .col-670 .paragraph {
+    margin-left: 0;
+  }
+  .background-img-green {
+    margin-bottom: 20px;
+  }
+  .background-img-green .heading {
+    padding: 40px;
+    line-height: 37px;
   }
 }
 </style>
