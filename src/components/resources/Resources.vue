@@ -288,8 +288,41 @@ h2 {
   font-weight: bold;
 }
 @media only screen and (max-width: 425px) {
+  .resources-and-technology {
+    padding: 15px;
+    display: block;
+  }
   .container-absolute-resources {
     display: none;
+  }
+  .align-left-container {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  .align-left-container h2 {
+    margin-top: 0;
+  }
+  .row {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .wrapper-col {
+    padding: 60px 40px;
+    width: 100%;
+  }
+  .wrapper {
+    display: block;
+    width: 100%;
+  }
+  .row:last-child {
+    margin: 0;
+    display: block;
+    width: 100%;
+    background-color: white;
+  }
+  .col-3+.col-3 {
+    margin-top: 25px;
   }
 }
 
