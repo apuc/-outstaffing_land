@@ -246,7 +246,7 @@ export default {
 
 .background-img-green {
   background-image: url("../../assets/img/background-green.png");
-  margin-top: 24px;
+  margin-top: 20px;
   margin-bottom: 90px;
   -moz-background-size: 100%;
   -webkit-background-size: 100%;
@@ -282,6 +282,10 @@ export default {
   font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
   float: right;
+}
+
+.col-670 {
+  z-index: 1;
 }
 
 h2 {
