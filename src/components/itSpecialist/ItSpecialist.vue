@@ -212,7 +212,7 @@ export default {
 .paragraph {
   font-size: 20px;
   color: #0f0000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: 300;
 }
 
@@ -224,7 +224,7 @@ export default {
 .wrapper-410 .heading {
   font-size: 30px;
   color: #000000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: 500;
 }
 
@@ -240,7 +240,7 @@ export default {
   font-size: 30px;
   line-height: 47px;
   color: #000000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: 500;
 }
 
@@ -248,7 +248,7 @@ export default {
   background-image: url("../../assets/img/background-green.png");
   margin-top: 24px;
   margin-bottom: 90px;
-  moz-background-size: 100%;
+  -moz-background-size: 100%;
   -webkit-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
@@ -267,7 +267,7 @@ export default {
   font-size: 21px;
   line-height: 37px;
   color: #000000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
 }
 
 .container {
@@ -279,7 +279,7 @@ export default {
   letter-spacing: 2px;
   line-height: 78px;
   color: #282828;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
   float: right;
 }
@@ -291,43 +291,54 @@ h2 {
 .h2--green {
   color: #52b709;
 }
+
 @media only screen and (max-width: 425px) {
   .it_specialist {
     padding: 15px;
   }
+
   .container-absolute-it-specialist {
     display: none;
   }
+
   .container {
     padding: 0;
     width: 100%;
     max-width: 100%;
   }
+
   .row {
     margin-top: 0;
     display: inline-block
   }
+
   .wrapper {
     justify-content: start;
   }
+
   .col-410 {
     margin-right: 0;
     margin-left: 0;
   }
+
   .wrapper-410 {
     padding: 40px;
   }
+
   .wrapper h2 {
     display: inline-block;
     font-size: 40px;
     line-height: 48px;
   }
+
   .col-670 .paragraph {
     margin-left: 0;
   }
+
   .background-img-green {
     margin-bottom: 20px;
   }
+
   .background-img-green .heading {
     padding: 40px;
     line-height: 37px;

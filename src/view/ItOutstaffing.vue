@@ -38,6 +38,7 @@ div {
   position: relative;
   overflow: hidden;
 }
+
 @media only screen and (max-width: 425px) {
   div {
     overflow: visible;

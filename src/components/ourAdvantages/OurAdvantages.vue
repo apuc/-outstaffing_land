@@ -83,6 +83,7 @@
 <script>
 import ScrollReveal from 'scrollreveal';
 import {CONFIG_IMG_SHOW} from "../../../constants/config";
+
 export default {
   name: "OurAdvantages",
   methods: {
@@ -168,7 +169,7 @@ h2 {
   margin-top: 25px;
   font-size: 23px;
   color: #0f0000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
   margin-bottom: 39px;
 }
@@ -176,7 +177,7 @@ h2 {
 .paragraph {
   font-size: 20px;
   color: #0f0000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: 300;
   max-width: 290px;
 }
@@ -189,32 +190,41 @@ h2 {
 .wrapper-content {
   margin-left: 30px;
 }
+
 @media only screen and (max-width: 425px) {
   .our-advantages {
     padding: 15px;
   }
+
   .container-absolute-our-advantages {
     display: none;
   }
+
   .container {
-    margin:0;
+    margin: 0;
   }
+
   .row + .row {
     padding-top: 0;
   }
+
   .row {
     display: inline-block;
   }
+
   h2 {
     font-size: 36px;
   }
+
   .col-6 {
     padding: 20px 0;
   }
+
   .title {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 20px;
   }
+
   .arrow-right-top {
     top: 10px;
     left: 10px;

@@ -98,10 +98,11 @@ export default {
 }
 
 .container-absolute-resources {
-  top: 0;right:0;
+  top: 0;
+  right: 0;
 }
 
-.img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9{
+.img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
   z-index: 1;
 }
 
@@ -110,41 +111,50 @@ export default {
   right: 149px;
   z-index: 1;
 }
+
 .img-2 {
   top: 324px;
   right: 492px;
   z-index: 2;
 }
+
 .img-3 {
   top: 245px;
   right: 426px;
   z-index: 1;
 }
+
 .img-4 {
   top: 564px;
   right: 57px;
 }
+
 .img-5 {
   top: 591px;
   right: 397px;
 }
+
 .img-6 {
   top: 726px;
   right: 163px;
 }
+
 .img-7 {
   top: 801px;
   right: 367px;
 }
+
 .img-8 {
   top: 698px;
   right: 248px;
 }
+
 .img-9 {
   top: 1035px;
   right: 318px;
   z-index: 3;
 }
+
 .wrapper-lang {
   padding-left: 38px;
   text-align: left;
@@ -191,7 +201,7 @@ export default {
   letter-spacing: -1px;
   margin-bottom: 40px;
   color: #1f1f1f;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
 }
 
@@ -225,7 +235,7 @@ export default {
   font-size: 25px;
   letter-spacing: -1px;
   color: #1f1f1f;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
 }
 
@@ -233,7 +243,7 @@ export default {
   font-size: 19px;
   line-height: 29px;
   color: #0f0000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   padding-top: 38px;
 }
 
@@ -269,7 +279,7 @@ export default {
 .paragraph, .h2-paragraph {
   font-size: 20px;
   color: #0f0000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: 300;
   max-width: 313px;
   text-align: left;
@@ -284,44 +294,53 @@ h2 {
   letter-spacing: 2px;
   line-height: 50px;
   color: #282828;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 425px) {
   .resources-and-technology {
     padding: 15px;
     display: block;
   }
+
   .container-absolute-resources {
     display: none;
   }
+
   .align-left-container {
     margin-left: 0;
     margin-top: 50px;
   }
+
   .align-left-container h2 {
     margin-top: 0;
   }
+
   .row {
     display: inline-block;
     margin-left: 0;
     margin-top: 30px;
   }
+
   .wrapper-col {
     padding: 60px 40px;
     width: 100%;
   }
+
   .wrapper {
     display: block;
     width: 100%;
   }
+
   .row:last-child {
     margin: 0;
     display: block;
     width: 100%;
     background-color: white;
   }
-  .col-3+.col-3 {
+
+  .col-3 + .col-3 {
     margin-top: 25px;
   }
 }

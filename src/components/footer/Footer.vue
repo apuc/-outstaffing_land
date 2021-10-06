@@ -35,7 +35,7 @@ export default {
   font-size: 21px;
   line-height: 47px;
   color: #ffffff;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ export default {
   font-size: 20px;
   color: #ffffff;
   width: 64%;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
   text-align: left;
 }
@@ -58,9 +58,11 @@ export default {
     padding: 15px;
     display: block;
   }
+
   .telephone__title {
     text-align: center;
   }
+
   .about-us {
     width: 100%;
     padding: 15px 0;

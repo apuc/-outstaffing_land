@@ -141,7 +141,7 @@ button:hover {
       0deg, #6aaf5c 0, #52b709), linear-gradient(
       36deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .16) 47%, hsla(0, 0%, 100%, .17) 50%, hsla(0, 0%, 100%, 0));
   color: #fff;
-  font-family: "Muller";
+  font-family: "Muller", serif;
   font-weight: 700;
   font-size: 2.2em;
   letter-spacing: normal;
@@ -176,7 +176,7 @@ img.background-circle {
 }
 
 h1 {
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   display: flex;
   margin-left: 830px;
   font-size: 120px;
@@ -190,7 +190,7 @@ h1 {
   font-size: 26px;
   line-height: 29px;
   color: #000000;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   max-width: 650px;
   float: right;
   margin-right: 280px;
@@ -213,7 +213,7 @@ h2 {
   color: #c3c5c5;
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "GT Eesti Pro Display";
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
   text-align: center;
 }
@@ -222,34 +222,41 @@ h2 {
   .container-absolute-outstaffing {
     display: none;
   }
+
   .arrow-right-top {
     display: none;
   }
+
   h1 {
     justify-content: center;
     margin-left: 0;
     font-size: 30px;
     line-height: 60px;
   }
+
   h2 {
     display: none;
     font-size: 42px;
     line-height: 35px;
   }
+
   .paragraph {
     margin-right: 0;
     padding: 0 30px;
   }
+
   button {
-    margin: auto;
-    margin-top: 40px;
+    margin: 40px auto 0 auto;
   }
+
   .autorization {
     margin: 50px auto;
   }
+
   img.background-circle {
     width: 100%;
   }
+
   .wrapper {
     padding-bottom: 0;
   }
