@@ -214,12 +214,16 @@ img {
 }
 
 @media only screen and (max-width: 425px) {
+  .form {
+    padding:15px;
+    display: block;
+  }
   .arrow-form {
     display: none;
   }
   .form .row {
     display: block;
-    padding:15px;
+    padding:0px;
   }
   .col-6:nth-child(2) {
     max-width: 100%;
@@ -227,6 +231,41 @@ img {
   .wrapper-form {
     padding: 35px 25px;
   }
-
+  .form > .row:last-child {
+    padding: 0;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .form > .row:last-child > div {
+    width: 100%;
+  }
+  .social-link {
+    display: flex;
+    justify-content: space-between;
+  }
+  .link-item {
+    margin-left: 0;
+  }
+  .copyright {
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  input {
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .send-a-request {
+    text-align: center;
+  }
+  button {
+    margin: auto;
+  }
+  .mt-170 {
+    margin-top: 0;
+  }
+  .col-6 > .item-specialist:last-child {
+    margin-bottom: 60px;
+  }
 }
 </style>
