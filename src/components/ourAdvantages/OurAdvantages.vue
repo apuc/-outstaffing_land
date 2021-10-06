@@ -196,6 +196,9 @@ h2 {
   .container-absolute-our-advantages {
     display: none;
   }
+  .container {
+    margin:0;
+  }
   .row + .row {
     padding-top: 0;
   }
