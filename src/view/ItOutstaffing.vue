@@ -25,9 +25,9 @@ export default {
     Header,
     Outstaffing,
     ItSpecialist,
+    Resources,
     OurAdvantages,
     Form,
-    Resources,
     Footer,
   }
 }
@@ -37,5 +37,10 @@ export default {
 div {
   position: relative;
   overflow: hidden;
+}
+@media only screen and (max-width: 425px) {
+  div {
+    overflow: visible;
+  }
 }
 </style>
