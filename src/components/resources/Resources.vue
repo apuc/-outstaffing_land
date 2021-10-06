@@ -191,7 +191,7 @@ export default {
   letter-spacing: -1px;
   margin-bottom: 40px;
   color: #1f1f1f;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
 }
 
@@ -225,7 +225,7 @@ export default {
   font-size: 25px;
   letter-spacing: -1px;
   color: #1f1f1f;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
 }
 
@@ -233,7 +233,7 @@ export default {
   font-size: 19px;
   line-height: 29px;
   color: #0f0000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   padding-top: 38px;
 }
 
@@ -269,7 +269,7 @@ export default {
 .paragraph, .h2-paragraph {
   font-size: 20px;
   color: #0f0000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 300;
   max-width: 313px;
   text-align: left;
@@ -284,7 +284,7 @@ h2 {
   letter-spacing: 2px;
   line-height: 50px;
   color: #282828;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
 }
 @media only screen and (max-width: 425px) {

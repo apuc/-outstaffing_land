@@ -176,7 +176,7 @@ img.background-circle {
 }
 
 h1 {
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   display: flex;
   margin-left: 830px;
   font-size: 120px;
@@ -190,7 +190,7 @@ h1 {
   font-size: 26px;
   line-height: 29px;
   color: #000000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   max-width: 650px;
   float: right;
   margin-right: 280px;
@@ -213,7 +213,7 @@ h2 {
   color: #c3c5c5;
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
   text-align: center;
 }

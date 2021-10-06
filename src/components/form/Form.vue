@@ -74,6 +74,7 @@ export default {
   justify-content: space-between;
 }
 .copyright {
+  font-family: "GT Eesti Pro Display";
   font-size: 16px;
   line-height: 22px;
   color: #212327;
@@ -98,7 +99,7 @@ export default {
   line-height: 50px;
   color: #282828;
   margin-bottom: 44px;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
 }
 
@@ -114,7 +115,7 @@ label {
   font-size: 24px;
   line-height: 17px;
   color: #48802d;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 500
 }
 
@@ -128,7 +129,7 @@ input {
   font-size: 22px;
   letter-spacing: 1px;
   color: #a6a6a6;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
 }
 
 button:not(:disabled) {
@@ -166,7 +167,7 @@ button {
   font-size: 22px;
   line-height: 22px;
   color: #212327;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
   text-decoration: none;
   margin-left: 30px;
@@ -188,7 +189,7 @@ p {
   font-size: 30px;
   line-height: 40px;
   color: #53a862;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 500;
   max-width: 200px;
   text-align: left;

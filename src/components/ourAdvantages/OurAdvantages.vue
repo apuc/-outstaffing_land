@@ -168,7 +168,7 @@ h2 {
   margin-top: 25px;
   font-size: 23px;
   color: #0f0000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
   margin-bottom: 39px;
 }
@@ -176,7 +176,7 @@ h2 {
 .paragraph {
   font-size: 20px;
   color: #0f0000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 300;
   max-width: 290px;
 }

@@ -212,7 +212,7 @@ export default {
 .paragraph {
   font-size: 20px;
   color: #0f0000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 300;
 }
 
@@ -224,7 +224,7 @@ export default {
 .wrapper-410 .heading {
   font-size: 30px;
   color: #000000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 500;
 }
 
@@ -240,7 +240,7 @@ export default {
   font-size: 30px;
   line-height: 47px;
   color: #000000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: 500;
 }
 
@@ -267,7 +267,7 @@ export default {
   font-size: 21px;
   line-height: 37px;
   color: #000000;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
 }
 
 .container {
@@ -279,7 +279,7 @@ export default {
   letter-spacing: 2px;
   line-height: 78px;
   color: #282828;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
   float: right;
 }

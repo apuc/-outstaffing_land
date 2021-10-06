@@ -35,7 +35,7 @@ export default {
   font-size: 21px;
   line-height: 47px;
   color: #ffffff;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ export default {
   font-size: 20px;
   color: #ffffff;
   width: 64%;
-  font-family: "G TEesti Pro Display";
+  font-family: "GT Eesti Pro Display";
   font-weight: bold;
   text-align: left;
 }
