@@ -190,8 +190,31 @@ h2 {
   margin-left: 30px;
 }
 @media only screen and (max-width: 425px) {
+  .our-advantages {
+    padding: 15px;
+  }
   .container-absolute-our-advantages {
     display: none;
+  }
+  .row + .row {
+    padding-top: 0;
+  }
+  .row {
+    display: inline-block;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .col-6 {
+    padding: 20px 0;
+  }
+  .title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+  .arrow-right-top {
+    top: 10px;
+    left: 10px;
   }
 }
 </style>
