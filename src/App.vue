@@ -1,11 +1,23 @@
 <template>
   <div id="app">
-    <ItOutstaffing/>
+    <Header/>
+    <Outstaffing/>
+    <ItSpecialist/>
+    <Resources/>
+    <OurAdvantages/>
+    <Form/>
+    <Footer/>
   </div>
 </template>
 
 <script>
-import ItOutstaffing from './view/ItOutstaffing.vue'
+import Header from "@/components/header/Header";
+import Outstaffing from "@/components/outstaffing/Outstaffing";
+import ItSpecialist from "@/components/itSpecialist/ItSpecialist";
+import Resources from "@/components/resources/Resources";
+import OurAdvantages from "@/components/ourAdvantages/OurAdvantages";
+import Form from "@/components/form/Form";
+import Footer from "@/components/footer/Footer";
 import Vue from 'vue';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -14,7 +26,13 @@ Vue.use(ElementUI);
 export default {
   name: 'App',
   components: {
-    ItOutstaffing
+    Header,
+    Outstaffing,
+    ItSpecialist,
+    Resources,
+    OurAdvantages,
+    Form,
+    Footer,
   }
 }
 </script>
@@ -31,5 +49,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  position: relative;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 425px) {
+  #app {
+    overflow: visible;
+  }
 }
 </style>
