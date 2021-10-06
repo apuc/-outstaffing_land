@@ -53,6 +53,12 @@ export default {
   text-align: left;
 }
 
+@media only screen and (max-width: 360px) {
+  .wrapper-telephone {
+    font-size: 40px;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .footer {
     padding: 15px;
