@@ -202,14 +202,31 @@ p {
   background-color: #e1fccf;
   background-image: url(../../assets/img/background_form.png);
   background-repeat: no-repeat;
-  /*-moz-background-size: 100%; !* Firefox 3.6+ *!*/
-  /*-webkit-background-size: 100%; !* Safari 3.1+ и Chrome 4.0+ *!*/
-  /*-o-background-size: 100%; !* Opera 9.6+ *!*/
-  background-size: 100%; /* Современные браузеры */
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   z-index: 1;
 }
 
 img {
   z-index: 2;
+}
+
+@media only screen and (max-width: 425px) {
+  .arrow-form {
+    display: none;
+  }
+  .form .row {
+    display: block;
+    padding:15px;
+  }
+  .col-6:nth-child(2) {
+    max-width: 100%;
+  }
+  .wrapper-form {
+    padding: 35px 25px;
+  }
+
 }
 </style>
