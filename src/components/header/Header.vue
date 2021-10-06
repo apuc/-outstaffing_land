@@ -27,16 +27,59 @@
         <a href="#">обратная связь</a>
       </div>
     </div>
+   <div class="mobile-nav" style="position: relative;">
+     <div
+         class="btn-nav-open"
+         v-on:click="open_nav_menu"
+     >
+       <svg width="25" height="25" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+         <rect width="48" height="48" fill="white" fill-opacity="0.01"/>
+         <path d="M7.94977 11.9498H39.9498" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+         <path d="M7.94977 23.9498H39.9498" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+         <path d="M7.94977 35.9498H39.9498" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+       </svg>
+     </div>
+     <div
+         v-if="show_nav_menu"
+         ref="nav_menu"
+         class="nav-menu">
+       <a href="#">О нас</a>
+       <a href="#">Наши возможности</a>
+       <a href="#">Наши проекты</a>
+       <a href="#">Контакты</a>
+     </div>
+
+   </div>
   </header>
 </template>
 
 <script>
 export default {
-  name: "Header"
+  name: "Header",
+  data() {
+    return {
+      show_nav_menu: false
+    }
+  },
+  methods: {
+    open_nav_menu: function () {
+      this.show_nav_menu = !this.show_nav_menu
+    }
+  }
 }
 </script>
 
 <style scoped>
+.mobile-nav .nav-menu {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  display: inline-grid;
+  background-color: #efeff5;;
+  width: 150px;
+  text-align: right;
+  padding: 10px;
+}
 @font-face {
   font-family: 'G TEesti Pro Text';
   src: url('../../assets/font/GTEestiProText-ThinItalic.eot');
@@ -380,7 +423,10 @@ header {
   padding: 42px 385px;
   justify-content: space-between;
 }
-
+.nav-menu a {
+  text-decoration: none;
+  color: #4caf50;
+}
 .wrapper-logo {
   display: flex;
   align-items: center;
@@ -465,5 +511,20 @@ header {
   line-height: 13px;
   color: #a6a5a5;
   font-family: "G TEesti Pro Display";
+}
+
+@media only screen and (max-width: 425px) {
+  header {
+    padding: 15px;
+  }
+  .head-navigation {
+    display: none;
+  }
+  .logo-subtitle {
+    display: none;
+  }
+  .button-contact {
+    display: none;
+  }
 }
 </style>
