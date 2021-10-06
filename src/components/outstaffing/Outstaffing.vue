@@ -217,4 +217,41 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
+
+@media only screen and (max-width: 425px) {
+  .container-absolute-outstaffing {
+    display: none;
+  }
+  .arrow-right-top {
+    display: none;
+  }
+  h1 {
+    justify-content: center;
+    margin-left: 0;
+    font-size: 30px;
+    line-height: 60px;
+  }
+  h2 {
+    display: none;
+    font-size: 42px;
+    line-height: 35px;
+  }
+  .paragraph {
+    margin-right: 0;
+    padding: 0 30px;
+  }
+  button {
+    margin: auto;
+    margin-top: 40px;
+  }
+  .autorization {
+    margin: 50px auto;
+  }
+  img.background-circle {
+    width: 100%;
+  }
+  .wrapper {
+    padding-bottom: 0;
+  }
+}
 </style>
