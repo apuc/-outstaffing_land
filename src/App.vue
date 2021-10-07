@@ -53,7 +53,7 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   #app {
     overflow: visible;
   }
