@@ -218,7 +218,7 @@ h2 {
   text-align: center;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .container-absolute-outstaffing {
     display: none;
   }
