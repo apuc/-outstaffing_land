@@ -232,6 +232,9 @@ img {
     width: 154px;
   }
 
+  .wrapper-form button {
+    width: 240px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
