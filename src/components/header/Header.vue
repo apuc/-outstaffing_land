@@ -524,8 +524,12 @@ header {
   color: #a6a5a5;
   font-family: "GT Eesti Pro Display";
 }
-
-@media only screen and (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 768px) {
+  header {
+    padding: 0 80px!important;
+  }
+}
+@media only screen and (max-width: 768px) {
   header {
     padding: 15px;
   }
