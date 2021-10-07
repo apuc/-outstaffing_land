@@ -345,7 +345,6 @@ h2 {
   .row {
     display: flex!important;
     flex-direction: column;
-    /*margin: 60px;*/
   }
 
   .row {
@@ -357,6 +356,10 @@ h2 {
   .wrapper-col {
     padding: 60px 40px;
     width: 100%;
+    text-align: center;
+  }
+  .col-3 .paragraph {
+    text-align: center;
   }
 
   .wrapper {
