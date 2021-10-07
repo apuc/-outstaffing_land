@@ -1,5 +1,5 @@
 <template>
-  <section class="resources-and-technology" style="position: relative;">
+  <section class="resources-and-technology">
     <div class="container-absolute-resources">
       <img class="background-right" src="../../assets/img/background-right.png" alt="right">
       <img src="../../assets/img/3block/1.png" alt="" class="img-1">
@@ -93,7 +93,20 @@ export default {
 </script>
 
 <style scoped>
-.container-absolute-resources, .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+.resources-and-technology {
+  position: relative;
+}
+
+.container-absolute-resources,
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9 {
   position: absolute;
 }
 
@@ -102,7 +115,14 @@ export default {
   right: 0;
 }
 
-.img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9 {
   z-index: 1;
 }
 
@@ -213,7 +233,7 @@ export default {
 }
 
 .col-3:first-child::before {
-  content: '';
+  content: "";
   display: block;
   height: 3px;
   width: 103px;
@@ -248,7 +268,7 @@ export default {
 }
 
 .col-3:nth-child(3)::before {
-  content: '';
+  content: "";
   display: block;
   height: 3px;
   width: 100%;
@@ -276,7 +296,8 @@ export default {
   margin-left: 490px;
 }
 
-.paragraph, .h2-paragraph {
+.paragraph,
+.h2-paragraph {
   font-size: 20px;
   color: #0f0000;
   font-family: "GT Eesti Pro Display", serif;
@@ -298,12 +319,16 @@ h2 {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .resources-and-technology {
     padding: 15px;
     display: block;
   }
 
+  h2 {
+    margin: auto;
+    margin-bottom: 30px;
+  }
   .container-absolute-resources {
     display: none;
   }
@@ -315,6 +340,12 @@ h2 {
 
   .align-left-container h2 {
     margin-top: 0;
+  }
+
+  .row {
+    display: flex!important;
+    flex-direction: column;
+    /*margin: 60px;*/
   }
 
   .row {
@@ -344,5 +375,4 @@ h2 {
     margin-top: 25px;
   }
 }
-
 </style>
