@@ -296,6 +296,15 @@ h2 {
   color: #52b709;
 }
 
+@media only screen and (max-width: 360px) {
+  .container .wrapper h2 {
+    font-size: 32px;
+  }
+  .col-410 .wrapper-410 {
+    padding: 34px;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .it_specialist {
     padding: 15px;
