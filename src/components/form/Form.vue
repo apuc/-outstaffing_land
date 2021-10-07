@@ -217,7 +217,7 @@ img {
 @media only screen and (max-width: 360px) {
   .social-link {
     display: flex;
-    text-align: left;
+    text-align: left!important;
     flex-direction: column;
     width: 100%;
   }
@@ -237,7 +237,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .form {
     padding:15px;
     display: block;
@@ -251,6 +251,8 @@ img {
   }
   .col-6:nth-child(2) {
     max-width: 100%;
+    width: 530px;
+    margin: auto;
   }
   .wrapper-form {
     padding: 35px 25px;
@@ -262,6 +264,7 @@ img {
   }
   .form > .row:last-child > div {
     width: 100%;
+    text-align: center!important;
   }
   .social-link {
     display: flex;
@@ -287,6 +290,13 @@ img {
   }
   .mt-170 {
     margin-top: 0;
+  }
+  .item-specialist + .item-specialist {
+    margin-top: 0;
+  }
+  .item-specialist {
+    margin: 15px;
+    justify-content: center;
   }
   .col-6 > .item-specialist:last-child {
     margin-bottom: 60px;
