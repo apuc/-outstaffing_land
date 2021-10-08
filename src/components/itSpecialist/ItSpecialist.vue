@@ -296,7 +296,7 @@ h2 {
   color: #52b709;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 320px) and (max-width: 360px) {
   .container .wrapper h2 {
     font-size: 32px;
   }
@@ -305,7 +305,7 @@ h2 {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .it_specialist {
     padding: 15px;
   }
@@ -330,6 +330,7 @@ h2 {
   }
 
   .col-410 {
+    max-width: 100%;
     margin-right: 0;
     margin-left: 0;
   }
@@ -355,6 +356,12 @@ h2 {
   .background-img-green .heading {
     padding: 40px;
     line-height: 37px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .wrapper {
+    justify-content: center;
   }
 }
 </style>
