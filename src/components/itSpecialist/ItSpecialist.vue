@@ -332,8 +332,12 @@ h2 {
 
 @media only screen and (max-width: 768px) {
   .it_specialist {
-    /*padding: 15px;*/
     background-color: #ffffff;
+  }
+
+  .wrapper-410 .heading {
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .container {
@@ -399,6 +403,11 @@ h2 {
     max-width: 100%;
   }
 
+  .paragraph {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
   .row {
     margin-top: 0;
     z-index: 1;
@@ -428,6 +437,10 @@ h2 {
 
   .col-670 .paragraph {
     margin-left: 0;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    /*padding: 15px;*/
   }
 
   .background-img-green {
@@ -435,8 +448,11 @@ h2 {
   }
 
   .background-img-green .heading {
-    padding: 40px;
+    padding: 33px;
     line-height: 37px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.34px;
   }
 
   .square {
@@ -451,6 +467,9 @@ h2 {
     height: 50px;
   }
 
+  .col-670 {
+    padding: 20px;
+  }
   .number-specialist {
     left: -35px;
     top: -40px;
