@@ -531,7 +531,8 @@ header {
 }
 @media only screen and (max-width: 768px) {
   header {
-    padding: 15px;
+    padding: 19px;
+    background-color: #ffffff;
   }
 
   .head-navigation {
