@@ -63,7 +63,7 @@ export default {
 
 .container-absolute-outstaffing {
   position: absolute;
-  top: 472px;
+  top: 32px;
   left: 135px;
   z-index: 10;
 }
