@@ -323,11 +323,23 @@ h2 {
   .resources-and-technology {
     padding: 15px;
     display: block;
+    background-color: #ffffff;
   }
-
+  .wrapper-lang {
+    display: none;
+  }
   h2 {
     margin: auto;
     margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.27px;
+  }
+  .h2-paragraph {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
   }
   .container-absolute-resources {
     display: none;
@@ -342,15 +354,20 @@ h2 {
     margin-top: 0;
   }
 
-  .row {
-    display: flex!important;
+  .wrapper .row {
+    display: flex;
     flex-direction: column;
-  }
-
-  .row {
-    display: inline-block;
     margin-left: 0;
     margin-top: 30px;
+    min-width: 232px;
+    padding: 0;
+  }
+  .wrapper-col {
+    min-width: 232px;
+    padding: 30px!important;
+  }
+  .row .col-3 {
+    padding: 0px;
   }
 
   .wrapper-col {
