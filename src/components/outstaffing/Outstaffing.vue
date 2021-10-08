@@ -1,15 +1,15 @@
 <template>
   <section class="outstaffing">
     <div class="container-absolute-outstaffing">
-      <img class="img-1" src="../../assets/img/1block/1.png" alt="1">
-      <img class="img-2" src="../../assets/img/1block/2.png" alt="2">
-      <img class="img-3" src="../../assets/img/1block/3.png" alt="3">
-      <img class="img-4" src="../../assets/img/1block/4.png" alt="4">
-      <img class="img-5" src="../../assets/img/1block/5.png" alt="5">
-      <img class="img-6" src="../../assets/img/1block/6.png" alt="6">
-      <img class="img-7" src="../../assets/img/1block/7.png" alt="7">
-      <img class="img-8" src="../../assets/img/1block/8.png" alt="8">
-      <img class="img-9" src="../../assets/img/1block/9.png" alt="9">
+      <img class="img-1" src="../../assets/img/main-image/1.png" alt="1">
+      <img class="img-2" src="../../assets/img/main-image/2.png" alt="2">
+      <img class="img-3" src="../../assets/img/main-image/3.png" alt="3">
+      <img class="img-4" src="../../assets/img/main-image/4.png" alt="4">
+      <img class="img-5" src="../../assets/img/main-image/5.png" alt="5">
+      <img class="img-6" src="../../assets/img/main-image/6.png" alt="6">
+      <img class="img-7" src="../../assets/img/main-image/7.png" alt="7">
+      <img class="img-8" src="../../assets/img/main-image/8.png" alt="8">
+      <img class="img-9" src="../../assets/img/main-image/9.png" alt="9">
     </div>
     <img class="background-circle" src="../../assets/img/circle-background.png" alt="background-circle">
     <h2 class="z-index-1">RUBY ON RAIlS - PHP - PYTHON - VUE.JS - REACT. JS</h2>
@@ -219,19 +219,34 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  .outstaffing {
+    padding-top: 50px;
+    padding-left:19px;
+    padding-right: 19px;
+    background-color: #ffffff;
+  }
   .container-absolute-outstaffing {
     display: none;
   }
 
   .arrow-right-top {
-    display: none;
+    /*display: none;*/
+    display: block;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 22px;
+    height: 22px;
   }
 
   h1 {
     justify-content: center;
     margin-left: 0;
-    font-size: 30px;
     line-height: 60px;
+    font-size: 34px;
+    margin-bottom: 25px;
   }
 
   h2 {
@@ -242,7 +257,11 @@ h2 {
 
   .paragraph {
     margin-right: 0;
-    padding: 0 30px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
   }
 
   button {
@@ -251,6 +270,14 @@ h2 {
 
   .autorization {
     margin: 50px auto;
+    width: 192px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "Muller Extra Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 47.92px;
+    letter-spacing: 1.1px;
   }
 
   img.background-circle {
