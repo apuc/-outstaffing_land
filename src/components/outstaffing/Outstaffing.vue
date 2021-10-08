@@ -226,7 +226,6 @@ h2 {
     background-color: #ffffff;
   }
   .container-absolute-outstaffing {
-    /*display: none;*/
     display: block;
     width: 100%;
     height: 160px;
@@ -238,9 +237,8 @@ h2 {
   img.img-1 {
     width: 233px;
     height: 236px;
-    top: 80px;
+    top: 50%;
     left: 50%;
-    right: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
   }
