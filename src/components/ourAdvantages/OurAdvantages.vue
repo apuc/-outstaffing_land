@@ -191,7 +191,17 @@ h2 {
   margin-left: 30px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 1601px) and (max-width : 1919px) {}
+@media only screen and (min-width: 1201px) and (max-width : 1600px) {}
+
+@media only screen and (min-width: 1025px) and (max-width : 1200px)  {
+  .container {
+    padding: 30px;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width : 1024px)  {}
+@media only screen and (min-width: 320px) and (max-width : 768px)  {
   .our-advantages {
     padding: 15px;
   }
@@ -209,7 +219,8 @@ h2 {
   }
 
   .row {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   h2 {
@@ -218,6 +229,7 @@ h2 {
 
   .col-6 {
     padding: 20px 0;
+    max-width: 340px;
   }
 
   .title {
@@ -226,7 +238,7 @@ h2 {
   }
 
   .arrow-right-top {
-    top: 10px;
+    top: -10px;
     left: 10px;
   }
 }
