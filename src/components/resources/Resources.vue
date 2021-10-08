@@ -2,15 +2,15 @@
   <section class="resources-and-technology">
     <div class="container-absolute-resources">
       <img class="background-right" src="../../assets/img/background-right.png" alt="right">
-      <img src="../../assets/img/3block/1.png" alt="" class="img-1">
-      <img src="../../assets/img/3block/2.png" alt="" class="img-2">
-      <img src="../../assets/img/3block/3.png" alt="" class="img-3">
-      <img src="../../assets/img/3block/4.png" alt="" class="img-4">
-      <img src="../../assets/img/3block/5.png" alt="" class="img-5">
-      <img src="../../assets/img/3block/6.png" alt="" class="img-6">
-      <img src="../../assets/img/3block/7.png" alt="" class="img-7">
-      <img src="../../assets/img/3block/8.png" alt="" class="img-8">
-      <img src="../../assets/img/3block/9.png" alt="" class="img-9">
+      <img src="../../assets/img/main-image/19.png" alt="" class="img-1">
+      <img src="../../assets/img/main-image/20.png" alt="" class="img-2">
+      <img src="../../assets/img/main-image/21.png" alt="" class="img-3">
+      <img src="../../assets/img/main-image/22.png" alt="" class="img-4">
+      <img src="../../assets/img/main-image/23.png" alt="" class="img-5">
+      <img src="../../assets/img/main-image/24.png" alt="" class="img-6">
+      <img src="../../assets/img/main-image/25.png" alt="" class="img-7">
+      <img src="../../assets/img/main-image/26.png" alt="" class="img-8">
+      <img src="../../assets/img/main-image/27.png" alt="" class="img-9">
     </div>
     <div class="container-background-white">
       <div class="wrapper">

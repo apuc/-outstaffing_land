@@ -2,9 +2,9 @@
   <section class="our-advantages">
     <img class="arrow-right-top" src="../../assets/img/arrow-right-top.png" alt="arrow-right-top">
     <div class="container-absolute-our-advantages">
-      <img src="../../assets/img/4block/1.png" alt="" class="img-1">
-      <img src="../../assets/img/4block/2.png" alt="" class="img-2">
-      <img src="../../assets/img/4block/3.png" alt="" class="img-3">
+      <img src="../../assets/img/main-image/28.png" alt="" class="img-1">
+      <img src="../../assets/img/main-image/29.png" alt="" class="img-2">
+      <img src="../../assets/img/main-image/30.png" alt="" class="img-3">
     </div>
     <div class="container">
       <h2>Наши преимущества</h2>

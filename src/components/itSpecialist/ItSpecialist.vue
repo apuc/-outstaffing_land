@@ -5,21 +5,21 @@
         20 специалистов
       </div>
       <div class="square">
-        <img class="img-1" src="../../assets/img/2block/1.png" alt="1">
+        <img class="img-1" src="../../assets/img/main-image/10.png" alt="1">
       </div>
-      <img src="../../assets/img/2block/2.png" alt="" class="img-2">
-      <img src="../../assets/img/2block/3.png" alt="" class="img-3">
-      <img src="../../assets/img/2block/4.png" alt="" class="img-4">
-      <img src="../../assets/img/2block/5.png" alt="" class="img-5">
-      <img src="../../assets/img/2block/6.png" alt="" class="img-6">
-      <img src="../../assets/img/2block/7.png" alt="" class="img-7">
-      <img src="../../assets/img/2block/8.png" alt="" class="img-8">
-      <img src="../../assets/img/2block/9.png" alt="" class="img-9">
-      <img src="../../assets/img/2block/8.png" alt="" class="img-10">
-      <img src="../../assets/img/2block/8.png" alt="" class="img-11">
-      <img src="../../assets/img/2block/8.png" alt="" class="img-12">
-      <img src="../../assets/img/2block/8.png" alt="" class="img-13">
-      <img src="../../assets/img/2block/8.png" alt="" class="img-14">
+      <img src="../../assets/img/main-image/11.png" alt="" class="img-2">
+      <img src="../../assets/img/main-image/12.png" alt="" class="img-3">
+      <img src="../../assets/img/main-image/13.png" alt="" class="img-4">
+      <img src="../../assets/img/main-image/14.png" alt="" class="img-5">
+      <img src="../../assets/img/main-image/15.png" alt="" class="img-6">
+      <img src="../../assets/img/main-image/17.png" alt="" class="img-7">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-8">
+      <img src="../../assets/img/main-image/18.png" alt="" class="img-9">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-10">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-11">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-12">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-13">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-14">
     </div>
     <div class="container">
       <div class="wrapper">
