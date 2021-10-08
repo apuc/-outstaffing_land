@@ -1,6 +1,6 @@
 <template>
   <section class="it_specialist">
-    <div class="container-absolute-it-specialist">
+    <div class="container-absolute-it-specialist" style="padding: 15px;">
       <div class="number-specialist">
         20 специалистов
       </div>
@@ -40,6 +40,13 @@
               техлогиями и прозрачным процессом.
             </div>
           </div>
+        </div>
+        <div class="mobile-wrapper">
+          <h2>Своя база
+            <div class="h2--green">
+              &nbsp;IT-специалистов
+            </div>
+          </h2>
         </div>
         <div class="col-670">
           <div class="background-img-green">
@@ -88,6 +95,10 @@ export default {
   to {
     transform: rotate(-360deg)
   }
+}
+
+.mobile-wrapper {
+  display: none;
 }
 
 .square img {
@@ -274,6 +285,19 @@ export default {
   padding: 0 290px;
 }
 
+.container .mobile-wrapper h2 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "GT Eesti Pro Display";
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.27px;
+  line-height: normal;
+}
+
 .container h2 {
   font-size: 50px;
   letter-spacing: 2px;
@@ -300,6 +324,7 @@ h2 {
   .container .wrapper h2 {
     font-size: 32px;
   }
+
   .col-410 .wrapper-410 {
     padding: 34px;
   }
@@ -307,11 +332,65 @@ h2 {
 
 @media only screen and (max-width: 768px) {
   .it_specialist {
-    padding: 15px;
+    /*padding: 15px;*/
+    background-color: #ffffff;
+  }
+
+  .container {
+    z-index: 1;
+  }
+
+  .mobile-wrapper {
+    display: flex;
+  }
+
+  .container .wrapper {
+    display: none;
   }
 
   .container-absolute-it-specialist {
-    display: none;
+    position: relative;
+    height: 76px;
+    top: 52px;
+    left: 0;
+
+  }
+
+  img.img-2 {
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 110px;
+    transform: translate(-95px, -85px);
+    z-index: 2;
+  }
+
+  img.img-3 {
+    width: 33px;
+    height: 47px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-73px, -86px);
+    z-index: 3;
+  }
+
+  img.img-4 {
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-58px, -51px);
+    z-index: 3;
+  }
+
+  img.img-9 {
+    width: 130px;
+    height: 170px;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(22px, -106px);
   }
 
   .container {
@@ -322,6 +401,7 @@ h2 {
 
   .row {
     margin-top: 0;
+    z-index: 1;
     display: inline-block
   }
 
@@ -333,6 +413,7 @@ h2 {
     max-width: 100%;
     margin-right: 0;
     margin-left: 0;
+    border-radius: 0;
   }
 
   .wrapper-410 {
@@ -357,6 +438,30 @@ h2 {
     padding: 40px;
     line-height: 37px;
   }
+
+  .square {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100px, -90px)
+  }
+
+  .square img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .number-specialist {
+    left: -35px;
+    top: -40px;
+    font-size: 14px;
+    width: auto;
+  }
+
+  .img-14, .img-13, .img-12, .img-11, .img-10, .img-8, .img-7, .img-6, .img-5 {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 425px) and (max-width: 768px) {
