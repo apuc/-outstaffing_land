@@ -1,16 +1,5 @@
 <template>
   <section class="outstaffing">
-    <div class="container-absolute-outstaffing">
-      <img class="img-1" src="../../assets/img/main-image/1.png" alt="1">
-      <img class="img-2" src="../../assets/img/main-image/2.png" alt="2">
-      <img class="img-3" src="../../assets/img/main-image/3.png" alt="3">
-      <img class="img-4" src="../../assets/img/main-image/4.png" alt="4">
-      <img class="img-5" src="../../assets/img/main-image/5.png" alt="5">
-      <img class="img-6" src="../../assets/img/main-image/6.png" alt="6">
-      <img class="img-7" src="../../assets/img/main-image/7.png" alt="7">
-      <img class="img-8" src="../../assets/img/main-image/8.png" alt="8">
-      <img class="img-9" src="../../assets/img/main-image/9.png" alt="9">
-    </div>
     <img class="background-circle" src="../../assets/img/circle-background.png" alt="background-circle">
     <h2 class="z-index-1">RUBY ON RAIlS - PHP - PYTHON - VUE.JS - REACT. JS</h2>
     <div class="container">
@@ -27,6 +16,17 @@
         <button class="autorization">
           Войти
         </button>
+      </div>
+      <div class="container-absolute-outstaffing">
+        <img class="img-1" src="../../assets/img/main-image/1.png" alt="1">
+        <img class="img-2" src="../../assets/img/main-image/2.png" alt="2">
+        <img class="img-3" src="../../assets/img/main-image/3.png" alt="3">
+        <img class="img-4" src="../../assets/img/main-image/4.png" alt="4">
+        <img class="img-5" src="../../assets/img/main-image/5.png" alt="5">
+        <img class="img-6" src="../../assets/img/main-image/6.png" alt="6">
+        <img class="img-7" src="../../assets/img/main-image/7.png" alt="7">
+        <img class="img-8" src="../../assets/img/main-image/8.png" alt="8">
+        <img class="img-9" src="../../assets/img/main-image/9.png" alt="9">
       </div>
     </div>
   </section>
@@ -226,7 +226,87 @@ h2 {
     background-color: #ffffff;
   }
   .container-absolute-outstaffing {
-    display: none;
+    /*display: none;*/
+    display: block;
+    width: 100%;
+    height: 160px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  img.img-1 {
+    width: 233px;
+    height: 236px;
+    top: 80px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+  img.img-2 {
+    top: 105px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-53px, -50%);
+    width: 16px;
+    height: 19px;
+  }
+  img.img-3 {
+    top: 84px;
+    left: 50%;
+    right: 50%;
+    transform: translate(53px, -50%);
+    width: 42px;
+    height: 40px;
+  }
+  img.img-4 {
+    top: 111px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-116px, -50%);
+    width: 55px;
+    height: 70px;
+  }
+  img.img-5 {
+    top: 105px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-67px, -50%);
+    width: 7px;
+    height: 10px;
+  }
+  img.img-6 {
+    top: 61px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-24px, -50%);
+    width: 15px;
+    height: 20px;
+  }
+  img.img-7 {
+    top: 105px;
+    left: 50%;
+    right: 50%;
+    transform: translate(13px, -50%);
+    width: 8px;
+    height: 13px;
+  }
+  img.img-8 {
+    top: 133px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-14px, -50%);
+    width: 45px;
+    height: 50px;
+  }
+  img.img-9 {
+    top: 165px;
+    left: 50%;
+    right: 50%;
+    transform: translate(30px, -50%);
+    width: 30px;
+    height: 30px;
   }
 
   .arrow-right-top {
@@ -269,7 +349,8 @@ h2 {
   }
 
   .autorization {
-    margin: 50px auto;
+    margin: 32px auto;
+    padding: 0;
     width: 192px;
     height: 50px;
     color: #ffffff;
@@ -278,14 +359,17 @@ h2 {
     font-weight: 400;
     line-height: 47.92px;
     letter-spacing: 1.1px;
+    z-index: 15;
   }
 
   img.background-circle {
-    width: 100%;
+    display: none;
   }
 
   .wrapper {
     padding-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 </style>
