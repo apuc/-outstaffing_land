@@ -65,6 +65,13 @@
         </div>
       </div>
     </div>
+    <div class="mobile-wrapper-img">
+      <img src="../../assets/img/main-image/11.png" alt="" class="img-15">
+      <img src="../../assets/img/main-image/14.png" alt="" class="img-16">
+      <img src="../../assets/img/main-image/15.png" alt="" class="img-17">
+      <img src="../../assets/img/main-image/16.png" alt="" class="img-18">
+      <img src="../../assets/img/main-image/17.png" alt="" class="img-19">
+    </div>
   </section>
 </template>
 
@@ -76,7 +83,7 @@ export default {
   name: "ItSpecialist",
   methods: {
     getScroll: function () {
-      for (let i = 1; i < 15; i++) {
+      for (let i = 1; i < 20; i++) {
         ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
       }
     }
@@ -97,12 +104,66 @@ export default {
   }
 }
 
-.mobile-wrapper {
+.mobile-wrapper-img {
   display: none;
 }
 
 .square img {
   animation: 20s moving infinite linear;
+}
+
+.mobile-wrapper-img {
+  display: none;
+  position: relative;
+  height: 400px;
+  width: 100%;
+  z-index: 1;
+}
+
+.mobile-wrapper-img img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.mobile-wrapper-img .img-15 {
+  top: 50%;
+  left: 50%;
+  width: 241px;
+  height: 199px;
+  transform: translate(-63px, -232px)!important
+}
+
+.mobile-wrapper-img .img-16 {
+  top: 50%;
+  left: 50%;
+  width: 235px;
+  height: 241px;
+  transform: translate(-133px, -53px)!important;
+}
+
+.mobile-wrapper-img .img-17 {
+  top: 50%;
+  left: 50%;
+  width: 125px;
+  height: 151px;
+  transform: translate(-103px, -23px)!important;
+}
+
+.mobile-wrapper-img .img-18 {
+  top: 50%;
+  left: 50%;
+  width: 45px;
+  height: 34px;
+  transform: translate(87px, 131px)!important;
+}
+
+.mobile-wrapper-img .img-19 {
+  top: 50%;
+  left: 50%;
+  width: 92px;
+  height: 55px;
+  transform: translate(-133px, 148px)!important;
 }
 
 .container-absolute-it-specialist, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14 {
@@ -333,6 +394,7 @@ h2 {
 @media only screen and (max-width: 768px) {
   .it_specialist {
     background-color: #ffffff;
+    overflow: hidden;
   }
 
   .wrapper-410 .heading {
@@ -340,12 +402,22 @@ h2 {
     font-weight: 500;
   }
 
+  .mobile-wrapper, .mobile-wrapper-img  {
+    display: block;
+  }
+
   .container {
-    z-index: 1;
+    z-index: 11;
   }
 
   .mobile-wrapper {
     display: flex;
+  }
+
+  .container .mobile-wrapper h2 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .container .wrapper {
