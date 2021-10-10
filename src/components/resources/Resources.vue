@@ -325,9 +325,15 @@ h2 {
     display: block;
     background-color: #ffffff;
   }
+
+  .container-absolute-resources {
+    display: none;
+  }
+
   .wrapper-lang {
     display: none;
   }
+
   h2 {
     margin: auto;
     margin-bottom: 30px;
@@ -336,18 +342,15 @@ h2 {
     text-align: center;
     letter-spacing: 0.27px;
   }
+
   .h2-paragraph {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
   }
-  .container-absolute-resources {
-    display: none;
-  }
 
   .align-left-container {
     margin-left: 0;
-    margin-top: 50px;
   }
 
   .align-left-container h2 {
@@ -362,12 +365,14 @@ h2 {
     min-width: 232px;
     padding: 0;
   }
+
   .wrapper-col {
     min-width: 232px;
-    padding: 30px!important;
+    padding: 30px !important;
   }
+
   .row .col-3 {
-    padding: 0px;
+    padding: 0;
   }
 
   .wrapper-col {
@@ -375,6 +380,7 @@ h2 {
     width: 100%;
     text-align: center;
   }
+
   .col-3 .paragraph {
     text-align: center;
   }
