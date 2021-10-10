@@ -28,6 +28,7 @@
         <img class="img-8" src="../../assets/img/main-image/8.png" alt="8">
         <img class="img-9" src="../../assets/img/main-image/9.png" alt="9">
       </div>
+      <div class="background--gray"></div>
     </div>
   </section>
 </template>
@@ -66,6 +67,15 @@ export default {
   top: 32px;
   left: 135px;
   z-index: 10;
+}
+.background--gray {
+  display: none;
+  position: absolute;
+  top: 570px;
+  left: -18px;
+  width: 145px;
+  height: 970px;
+  background-color: #f4f7f7;
 }
 
 .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
@@ -217,6 +227,13 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .background--gray {
+    display: block;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .outstaffing {
