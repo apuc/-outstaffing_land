@@ -158,6 +158,10 @@ export default {
   transform: translate(87px, 131px)!important;
 }
 
+.mobile-wrapper {
+  display: none;
+}
+
 .mobile-wrapper-img .img-19 {
   top: 50%;
   left: 50%;
