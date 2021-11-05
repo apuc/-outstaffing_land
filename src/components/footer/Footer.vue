@@ -1,24 +1,21 @@
 <template>
   <footer class="footer">
     <div class="wrapper-telephone">
-      <div class="telephone__title">
-        Горячая линия
-      </div>
-      <a href="tel:89451567898">
-        8 945 156 78 98
-      </a>
+      <div class="telephone__title">Горячая линия</div>
+      <a href="tel:89451567898"> 8 945 156 78 98 </a>
     </div>
     <div class="about-us">
-      Но акционеры крупнейших компаний формируют глобальную экономическую сеть и при этом - ассоциативно распределены по
-      отростям Противоложная точка зрения подразумевает
+      Но акционеры крупнейших компаний формируют глобальную экономическую сеть и
+      при этом - ассоциативно распределены по отростям Противоложная точка
+      зрения подразумевает
     </div>
   </footer>
 </template>
 
 <script>
 export default {
-  name: "Footer"
-}
+  name: "Footer",
+};
 </script>
 
 <style scoped>
@@ -30,7 +27,8 @@ export default {
   background-color: #202020;
 }
 
-.telephone__title, .wrapper-telephone a {
+.telephone__title,
+.wrapper-telephone a {
   text-align: left;
   font-size: 21px;
   line-height: 47px;
@@ -53,8 +51,8 @@ export default {
   text-align: left;
 }
 
-@media only screen and (min-width:320px) and (max-width: 360px) {
-  .wrapper-telephone {
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .wrapper-telephone a {
     font-size: 40px;
   }
 }
@@ -74,6 +72,5 @@ export default {
     padding: 15px 0;
     text-align: center;
   }
-
 }
 </style>
