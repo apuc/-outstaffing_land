@@ -1,46 +1,64 @@
 <template>
   <section class="resources-and-technology">
     <div class="container-absolute-resources">
-      <img class="background-right" src="../../assets/img/background-right.png" alt="right">
-      <img src="../../assets/img/main-image/19.png" alt="" class="img-1">
-      <img src="../../assets/img/main-image/20.png" alt="" class="img-2">
-      <img src="../../assets/img/main-image/21.png" alt="" class="img-3">
-      <img src="../../assets/img/main-image/22.png" alt="" class="img-4">
-      <img src="../../assets/img/main-image/23.png" alt="" class="img-5">
-      <img src="../../assets/img/main-image/24.png" alt="" class="img-6">
-      <img src="../../assets/img/main-image/25.png" alt="" class="img-7">
-      <img src="../../assets/img/main-image/26.png" alt="" class="img-8">
-      <img src="../../assets/img/main-image/27.png" alt="" class="img-9">
+      <img
+        class="background-right"
+        src="../../assets/img/background-right.png"
+        alt="right"
+      />
+      <img src="../../assets/img/main-image/19.png" alt="" class="img-1" />
+      <img src="../../assets/img/main-image/20.png" alt="" class="img-2" />
+      <img src="../../assets/img/main-image/21.png" alt="" class="img-3" />
+      <img src="../../assets/img/main-image/22.png" alt="" class="img-4" />
+      <img src="../../assets/img/main-image/23.png" alt="" class="img-5" />
+      <img src="../../assets/img/main-image/24.png" alt="" class="img-6" />
+      <img src="../../assets/img/main-image/25.png" alt="" class="img-7" />
+      <img src="../../assets/img/main-image/26.png" alt="" class="img-8" />
+      <img src="../../assets/img/main-image/27.png" alt="" class="img-9" />
     </div>
     <div class="container-background-white">
       <div class="wrapper">
         <div class="align-left-container">
           <h2>Ресурсы и технологии</h2>
-          <div class="h2-paragraph">Подключение от 3 дней. Более 300 специалистов в штате</div>
+          <div class="h2-paragraph">
+            Подключение от 3 дней. Более 300 специалистов в штате
+          </div>
         </div>
         <div class="row">
           <div class="col-3">
             <div class="wrapper-col">
-              <img src="../../assets/img/Laravel.png" alt="Laravel">
-              <div class="paragraph">PHP Framework<br> For Web Artisans</div>
+              <img src="../../assets/img/Laravel.png" alt="Laravel" />
+              <div class="paragraph">
+                PHP Framework<br />
+                For Web Artisans
+              </div>
             </div>
           </div>
           <div class="col-3">
             <div class="wrapper-col">
-              <img src="../../assets/img/Vue.png" alt="Vue">
-              <div class="paragraph">Прогрессивный<br> JavaScript-фреймворк.</div>
+              <img src="../../assets/img/Vue.png" alt="Vue" />
+              <div class="paragraph">
+                Прогрессивный<br />
+                JavaScript-фреймворк.
+              </div>
             </div>
           </div>
           <div class="col-3">
             <div class="wrapper-col">
-              <img src="../../assets/img/Ux.png" alt="Ux">
-              <div class="paragraph">Дизайн взаимодействия<br> с пользователем</div>
+              <img src="../../assets/img/Ux.png" alt="Ux" />
+              <div class="paragraph">
+                Дизайн взаимодействия<br />
+                с пользователем
+              </div>
             </div>
           </div>
           <div class="col-3">
             <div class="wrapper-col">
-              <img src="../../assets/img/Digital.png" alt="Digital">
-              <div class="paragraph">Комплексный инфлюенс<br> маркетинг</div>
+              <img src="../../assets/img/Digital.png" alt="Digital" />
+              <div class="paragraph">
+                Комплексный инфлюенс<br />
+                маркетинг
+              </div>
             </div>
           </div>
         </div>
@@ -74,22 +92,22 @@
 </template>
 
 <script>
-import ScrollReveal from 'scrollreveal';
-import {CONFIG_IMG_SHOW} from "../../../constants/config";
+import ScrollReveal from "scrollreveal";
+import { CONFIG_IMG_SHOW } from "../../../constants/config";
 
 export default {
   name: "Resources",
   methods: {
     getScroll: function () {
       for (let i = 1; i < 10; i++) {
-        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+        ScrollReveal().reveal(".img-" + i, CONFIG_IMG_SHOW);
       }
-    }
+    },
   },
   mounted() {
-    this.getScroll()
-  }
-}
+    this.getScroll();
+  },
+};
 </script>
 
 <style scoped>
@@ -240,7 +258,7 @@ export default {
   position: absolute;
   right: -1px;
   top: -3px;
-  background: green;
+  background: #4caf50;
 }
 
 .row {
@@ -275,10 +293,10 @@ export default {
   position: absolute;
   right: -1px;
   top: -3px;
-  background: green;
+  background: #4caf50;
 }
 
-.col-3:nth-child(2n+1) {
+.col-3:nth-child(2n + 1) {
   margin-top: 10px;
 }
 
@@ -326,6 +344,16 @@ h2 {
     background-color: #ffffff;
   }
 
+  .col-3:nth-child(3)::before {
+    height: 8px;
+    right: 0px;
+    top: 1px;
+  }
+  .col-3:first-child::before {
+    height: 8px;
+    right: 0px;
+    top: 1px;
+  }
   .container-absolute-resources {
     display: none;
   }
@@ -348,6 +376,14 @@ h2 {
     font-weight: 300;
     text-align: center;
   }
+  .col-3 .paragraph {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22.64px;
+  }
 
   .align-left-container {
     margin-left: 0;
@@ -366,9 +402,12 @@ h2 {
     padding: 0;
   }
 
+  .row {
+    padding: 25px !important;
+  }
   .wrapper-col {
-    min-width: 232px;
-    padding: 30px !important;
+    /* min-width: 232px; */
+    padding: 20px !important;
   }
 
   .row .col-3 {
@@ -381,24 +420,23 @@ h2 {
     text-align: center;
   }
 
-  .col-3 .paragraph {
-    text-align: center;
-  }
-
   .wrapper {
     display: block;
     width: 100%;
   }
 
+  .wrapper .row {
+    margin-top: 3px;
+  }
   .row:last-child {
     margin: 0;
-    display: block;
+    display: none;
     width: 100%;
     background-color: white;
   }
 
   .col-3 + .col-3 {
-    margin-top: 25px;
+    margin-top: 22px;
   }
 }
 </style>
