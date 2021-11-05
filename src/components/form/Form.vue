@@ -27,6 +27,11 @@
       </div>
       <img class="arrow-form" src="../../assets/img/arrow-form.png" alt="" />
     </div>
+    <img
+      class="arrow-form-mobile"
+      src="../../assets/img/arrow-form.png"
+      alt=""
+    />
     <div class="row">
       <div class="copyright">© 2000-2021 ООО «ИГД»</div>
       <div class="social-link">
@@ -61,6 +66,10 @@ export default {
   right: 50%;
   left: 48%;
   transform: translate(-50%, -50%);
+}
+.arrow-form-mobile {
+  width: 100%;
+  display: none;
 }
 
 .form .row {
@@ -238,11 +247,14 @@ img {
   }
   input#login,
   input#password {
-    width: 154px;
+    width: 205px;
+    font-size: 15px;
+    letter-spacing: 0.32px;
   }
 
   .wrapper-form button {
-    width: 240px;
+    width: 200px;
+    height: 60px;
   }
 }
 
@@ -255,16 +267,34 @@ img {
     display: none;
   }
   .form .row {
-    display: block;
     padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .col-6:nth-child(2) {
     max-width: 100%;
     width: 530px;
     margin: auto;
+    height: 460px;
   }
   .wrapper-form {
-    padding: 35px 25px;
+    padding: 45px 10px;
+  }
+  .arrow-form-mobile {
+    display: block;
+  }
+  label {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 16.81px;
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .mt-170 {
+    margin-top: 90px;
   }
   .form > .row:last-child {
     margin-top: 90px;
@@ -293,15 +323,18 @@ img {
     width: 210px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px 25px;
   }
   .send-a-request {
     text-align: center;
+    display: none;
   }
   button {
     margin: auto;
-  }
-  .mt-170 {
-    margin-top: 0;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    line-height: 47.92px;
   }
   .item-specialist + .item-specialist {
     margin-top: 0;
@@ -309,6 +342,12 @@ img {
   .item-specialist {
     margin: 15px;
     justify-content: center;
+    font-size: 25px;
+  }
+  .item-specialist img {
+    width: 54px;
+    height: 64px;
+    margin: auto;
   }
   .col-6 > .item-specialist:last-child {
     margin-bottom: 60px;
