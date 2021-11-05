@@ -3,36 +3,32 @@
     <div class="row">
       <div class="col-6 mt-170">
         <div class="item-specialist">
-          <img src="../../assets/img/15.png" alt="">
+          <img src="../../assets/img/15.png" alt="" />
           <p>Свободных специалистов</p>
         </div>
         <div class="item-specialist">
-          <img src="../../assets/img/15.png" alt="">
+          <img src="../../assets/img/15.png" alt="" />
           <p>Свободных специалистов</p>
         </div>
         <div class="item-specialist">
-          <img src="../../assets/img/15.png" alt="">
+          <img src="../../assets/img/15.png" alt="" />
           <p>Свободных специалистов</p>
         </div>
       </div>
       <div class="col-6">
         <div class="wrapper-form">
-          <div class="send-a-request">
-            Отправить запрос
-          </div>
+          <div class="send-a-request">Отправить запрос</div>
           <label for="login">Ваш логин:</label>
-          <input id="login" type="text" placeholder="Логин">
+          <input id="login" type="text" placeholder="Логин" />
           <label for="password">Пароль:</label>
-          <input id="password" type="text" placeholder="Пароль">
+          <input id="password" type="text" placeholder="Пароль" />
           <button>Войти</button>
         </div>
       </div>
-      <img class="arrow-form" src="../../assets/img/arrow-form.png" alt="">
+      <img class="arrow-form" src="../../assets/img/arrow-form.png" alt="" />
     </div>
     <div class="row">
-      <div class="copyright">
-        © 2000-2021 ООО «ИГД»
-      </div>
+      <div class="copyright">© 2000-2021 ООО «ИГД»</div>
       <div class="social-link">
         <a href="#" class="link-item">Facebook</a>
         <a href="#" class="link-item">Instagram</a>
@@ -45,8 +41,8 @@
 
 <script>
 export default {
-  name: "Form"
-}
+  name: "Form",
+};
 </script>
 
 <style scoped>
@@ -74,7 +70,7 @@ export default {
   justify-content: space-between;
 }
 .copyright {
-  font-family: "GT Eesti Pro Display",serif;
+  font-family: "GT Eesti Pro Display", serif;
   font-size: 16px;
   line-height: 22px;
   color: #212327;
@@ -99,7 +95,7 @@ export default {
   line-height: 50px;
   color: #282828;
   margin-bottom: 44px;
-  font-family: "GT Eesti Pro Display",serif;
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
 }
 
@@ -115,8 +111,8 @@ label {
   font-size: 24px;
   line-height: 17px;
   color: #48802d;
-  font-family: "GT Eesti Pro Display",serif;
-  font-weight: 500
+  font-family: "GT Eesti Pro Display", serif;
+  font-weight: 500;
 }
 
 input {
@@ -129,7 +125,7 @@ input {
   font-size: 22px;
   letter-spacing: 1px;
   color: #a6a6a6;
-  font-family: "GT Eesti Pro Display",serif;
+  font-family: "GT Eesti Pro Display", serif;
 }
 
 button:not(:disabled) {
@@ -140,7 +136,7 @@ button:hover {
   background-color: #ffffff;
   border: 2px solid #6aaf5c;
   color: #6aaf5c !important;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 button {
@@ -149,11 +145,16 @@ button {
   box-shadow: 6px 5px 20px rgb(82, 151, 34, 0.21);
   border-radius: 38px;
   background-color: #fff;
-  background-image: linear-gradient(
-      0deg,#6aaf5c 0,#52b709),linear-gradient(
-      36deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.16) 47%,hsla(0,0%,100%,.17) 50%,hsla(0,0%,100%,0));
+  background-image: linear-gradient(0deg, #6aaf5c 0, #52b709),
+    linear-gradient(
+      36deg,
+      hsla(0, 0%, 100%, 0),
+      hsla(0, 0%, 100%, 0.16) 47%,
+      hsla(0, 0%, 100%, 0.17) 50%,
+      hsla(0, 0%, 100%, 0)
+    );
   color: #fff;
-  font-family: "Muller",serif;
+  font-family: "Muller", serif;
   font-weight: 700;
   font-size: 2.2em;
   letter-spacing: normal;
@@ -167,7 +168,7 @@ button {
   font-size: 22px;
   line-height: 22px;
   color: #212327;
-  font-family: "GT Eesti Pro Display",serif;
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
   text-decoration: none;
   margin-left: 30px;
@@ -189,7 +190,7 @@ p {
   font-size: 30px;
   line-height: 40px;
   color: #53a862;
-  font-family: "GT Eesti Pro Display",serif;
+  font-family: "GT Eesti Pro Display", serif;
   font-weight: 500;
   max-width: 200px;
   text-align: left;
@@ -217,9 +218,16 @@ img {
 @media only screen and (max-width: 360px) {
   .social-link {
     display: flex;
-    text-align: left!important;
-    flex-direction: column;
+    text-align: left !important;
     width: 100%;
+    flex-direction: unset;
+  }
+  .social-link a {
+    font-size: 15px;
+    text-align: left;
+  }
+  .copyright {
+    font-size: 13px;
   }
   .link-item {
     width: 100%;
@@ -228,7 +236,8 @@ img {
   p {
     margin-left: 30px;
   }
-  input#login, input#password {
+  input#login,
+  input#password {
     width: 154px;
   }
 
@@ -239,7 +248,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .form {
-    padding:15px;
+    padding: 15px;
     display: block;
   }
   .arrow-form {
@@ -247,7 +256,7 @@ img {
   }
   .form .row {
     display: block;
-    padding:0;
+    padding: 0;
   }
   .col-6:nth-child(2) {
     max-width: 100%;
@@ -258,13 +267,16 @@ img {
     padding: 35px 25px;
   }
   .form > .row:last-child {
+    margin-top: 90px;
     padding: 0;
     display: block;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column-reverse;
   }
   .form > .row:last-child > div {
     width: 100%;
-    text-align: center!important;
+    text-align: center !important;
   }
   .social-link {
     display: flex;
