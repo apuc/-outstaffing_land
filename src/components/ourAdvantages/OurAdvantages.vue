@@ -195,12 +195,25 @@ h2 {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+  h2 {
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    margin-bottom: 60px;
+    padding-top: 0;
+  }
   .our-advantages {
     padding: 15px;
   }
 
   .container-absolute-our-advantages {
     display: none;
+  }
+  .wrapper-content {
+    margin-left: 0;
+    margin-top: 14px;
   }
 
   .container {
@@ -216,23 +229,34 @@ h2 {
     flex-wrap: wrap;
   }
 
-  h2 {
-    font-size: 36px;
-  }
-
   .col-6 {
     padding: 20px 0;
     max-width: 340px;
+    flex-direction: column;
+    text-align: center;
   }
 
   .title {
     margin-top: 0;
     margin-bottom: 20px;
+    font-family: "GT Eesti Pro Display";
+    font-size: 15px;
+  }
+  .wrapper-img img {
+    width: 35px;
+    height: 35px;
   }
 
+  .paragraph {
+    font-size: 15px;
+    font-weight: 300;
+  }
   .arrow-right-top {
     top: -10px;
-    left: 10px;
+    width: 22px;
+    height: 22px;
+    transform: scale(-1, 1);
+    right: 60px;
   }
 }
 </style>
