@@ -1,43 +1,39 @@
 <template>
   <section class="our-advantages">
-    <img class="arrow-right-top" src="../../assets/img/arrow-right-top.png" alt="arrow-right-top">
+    <img
+      class="arrow-right-top"
+      src="../../assets/img/arrow-right-top.png"
+      alt="arrow-right-top"
+    />
     <div class="container-absolute-our-advantages">
-      <img src="../../assets/img/main-image/28.png" alt="" class="img-1">
-      <img src="../../assets/img/main-image/29.png" alt="" class="img-2">
-      <img src="../../assets/img/main-image/30.png" alt="" class="img-3">
+      <img src="../../assets/img/main-image/28.png" alt="" class="img-1" />
+      <img src="../../assets/img/main-image/29.png" alt="" class="img-2" />
+      <img src="../../assets/img/main-image/30.png" alt="" class="img-3" />
     </div>
     <div class="container">
       <h2>Наши преимущества</h2>
       <div class="row">
         <div class="col-6">
           <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus">
+            <img src="../../assets/img/plus.png" alt="plus" />
           </div>
           <div class="wrapper-content">
-            <div class="title">
-              Быстро и качественно
-            </div>
+            <div class="title">Быстро и качественно</div>
             <div class="paragraph">
-              В среднем вакансии закрываем за
-              2-3 недели. Направляем только
-              релевантные резюме
-              заинтересованных кандидатов.
+              В среднем вакансии закрываем за 2-3 недели. Направляем только
+              релевантные резюме заинтересованных кандидатов.
             </div>
           </div>
         </div>
         <div class="col-6">
           <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus">
+            <img src="../../assets/img/plus.png" alt="plus" />
           </div>
           <div class="wrapper-content">
-            <div class="title">
-              Быстро и качественно
-            </div>
+            <div class="title">Быстро и качественно</div>
             <div class="paragraph">
-              В среднем вакансии закрываем за
-              2-3 недели. Направляем только
-              релевантные резюме
-              заинтересованных кандидатов.
+              В среднем вакансии закрываем за 2-3 недели. Направляем только
+              релевантные резюме заинтересованных кандидатов.
             </div>
           </div>
         </div>
@@ -45,33 +41,25 @@
       <div class="row">
         <div class="col-6">
           <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus">
+            <img src="../../assets/img/plus.png" alt="plus" />
           </div>
           <div class="wrapper-content">
-            <div class="title">
-              Быстро и качественно
-            </div>
+            <div class="title">Быстро и качественно</div>
             <div class="paragraph">
-              В среднем вакансии закрываем за
-              2-3 недели. Направляем только
-              релевантные резюме
-              заинтересованных кандидатов.
+              В среднем вакансии закрываем за 2-3 недели. Направляем только
+              релевантные резюме заинтересованных кандидатов.
             </div>
           </div>
         </div>
         <div class="col-6">
           <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus">
+            <img src="../../assets/img/plus.png" alt="plus" />
           </div>
           <div class="wrapper-content">
-            <div class="title">
-              Быстро и качественно
-            </div>
+            <div class="title">Быстро и качественно</div>
             <div class="paragraph">
-              В среднем вакансии закрываем за
-              2-3 недели. Направляем только
-              релевантные резюме
-              заинтересованных кандидатов.
+              В среднем вакансии закрываем за 2-3 недели. Направляем только
+              релевантные резюме заинтересованных кандидатов.
             </div>
           </div>
         </div>
@@ -81,22 +69,22 @@
 </template>
 
 <script>
-import ScrollReveal from 'scrollreveal';
-import {CONFIG_IMG_SHOW} from "../../../constants/config";
+import ScrollReveal from "scrollreveal";
+import { CONFIG_IMG_SHOW } from "../../../constants/config";
 
 export default {
   name: "OurAdvantages",
   methods: {
     getScroll: function () {
       for (let i = 1; i < 4; i++) {
-        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+        ScrollReveal().reveal(".img-" + i, CONFIG_IMG_SHOW);
       }
-    }
+    },
   },
   mounted() {
-    this.getScroll()
-  }
-}
+    this.getScroll();
+  },
+};
 </script>
 
 <style scoped>
@@ -106,7 +94,9 @@ export default {
   right: 0;
 }
 
-.img-1, .img-2, .img-3 {
+.img-1,
+.img-2,
+.img-3 {
   position: absolute;
   z-index: 1;
 }
@@ -191,17 +181,20 @@ h2 {
   margin-left: 30px;
 }
 
-@media only screen and (min-width: 1601px) and (max-width : 1919px) {}
-@media only screen and (min-width: 1201px) and (max-width : 1600px) {}
+@media only screen and (min-width: 1601px) and (max-width: 1919px) {
+}
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+}
 
-@media only screen and (min-width: 1025px) and (max-width : 1200px)  {
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .container {
     padding: 30px;
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width : 1024px)  {}
-@media only screen and (min-width: 320px) and (max-width : 768px)  {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
   .our-advantages {
     padding: 15px;
   }
