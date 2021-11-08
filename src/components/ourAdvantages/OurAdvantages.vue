@@ -1,71 +1,95 @@
 <template>
-  <section class="our-advantages">
-    <img
-      class="arrow-right-top"
-      src="../../assets/img/arrow-right-top.png"
-      alt="arrow-right-top"
-    />
-    <div class="container-absolute-our-advantages">
-      <img src="../../assets/img/main-image/28.png" alt="" class="img-1" />
-      <img src="../../assets/img/main-image/29.png" alt="" class="img-2" />
-      <img src="../../assets/img/main-image/30.png" alt="" class="img-3" />
-    </div>
-    <div class="container">
-      <h2>Наши преимущества</h2>
-      <div class="row">
-        <div class="col-6">
-          <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus" />
+  <div>
+    <section class="our-advantages">
+      <img
+        class="arrow-right-top"
+        src="../../assets/img/arrow-right-top.png"
+        alt="arrow-right-top"
+      />
+      <div class="container-absolute-our-advantages">
+        <img src="../../assets/img/main-image/28.png" alt="" class="img-1" />
+        <img src="../../assets/img/main-image/29.png" alt="" class="img-2" />
+        <img src="../../assets/img/main-image/30.png" alt="" class="img-3" />
+      </div>
+      <div class="container">
+        <h2>Наши преимущества</h2>
+        <div class="row">
+          <div class="col-6">
+            <div class="wrapper-img">
+              <img src="../../assets/img/plus.png" alt="plus" />
+            </div>
+            <div class="wrapper-content">
+              <div class="title">Быстро и качественно</div>
+              <div class="paragraph">
+                В среднем вакансии закрываем за 2-3 недели. Направляем только
+                релевантные резюме заинтересованных кандидатов.
+              </div>
+            </div>
           </div>
-          <div class="wrapper-content">
-            <div class="title">Быстро и качественно</div>
-            <div class="paragraph">
-              В среднем вакансии закрываем за 2-3 недели. Направляем только
-              релевантные резюме заинтересованных кандидатов.
+          <div class="col-6">
+            <div class="wrapper-img">
+              <img src="../../assets/img/plus.png" alt="plus" />
+            </div>
+            <div class="wrapper-content">
+              <div class="title">Быстро и качественно</div>
+              <div class="paragraph">
+                В среднем вакансии закрываем за 2-3 недели. Направляем только
+                релевантные резюме заинтересованных кандидатов.
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-6">
-          <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus" />
+        <div class="row">
+          <div class="col-6">
+            <div class="wrapper-img">
+              <img src="../../assets/img/plus.png" alt="plus" />
+            </div>
+            <div class="wrapper-content">
+              <div class="title">Быстро и качественно</div>
+              <div class="paragraph">
+                В среднем вакансии закрываем за 2-3 недели. Направляем только
+                релевантные резюме заинтересованных кандидатов.
+              </div>
+            </div>
           </div>
-          <div class="wrapper-content">
-            <div class="title">Быстро и качественно</div>
-            <div class="paragraph">
-              В среднем вакансии закрываем за 2-3 недели. Направляем только
-              релевантные резюме заинтересованных кандидатов.
+          <div class="col-6">
+            <div class="wrapper-img">
+              <img src="../../assets/img/plus.png" alt="plus" />
+            </div>
+            <div class="wrapper-content">
+              <div class="title">Быстро и качественно</div>
+              <div class="paragraph">
+                В среднем вакансии закрываем за 2-3 недели. Направляем только
+                релевантные резюме заинтересованных кандидатов.
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-6">
-          <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus" />
-          </div>
-          <div class="wrapper-content">
-            <div class="title">Быстро и качественно</div>
-            <div class="paragraph">
-              В среднем вакансии закрываем за 2-3 недели. Направляем только
-              релевантные резюме заинтересованных кандидатов.
-            </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="wrapper-img">
-            <img src="../../assets/img/plus.png" alt="plus" />
-          </div>
-          <div class="wrapper-content">
-            <div class="title">Быстро и качественно</div>
-            <div class="paragraph">
-              В среднем вакансии закрываем за 2-3 недели. Направляем только
-              релевантные резюме заинтересованных кандидатов.
-            </div>
-          </div>
-        </div>
-      </div>
+    </section>
+    <div class="container-img-mobile">
+      <img
+        src="../../assets/img/main-image/27.png"
+        alt="27"
+        class="img-1-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/28.png"
+        alt="28"
+        class="img-2-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/29.png"
+        alt="29"
+        class="img-3-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/30.png"
+        alt="30"
+        class="img-4-mobile"
+      />
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -79,6 +103,9 @@ export default {
       for (let i = 1; i < 4; i++) {
         ScrollReveal().reveal(".img-" + i, CONFIG_IMG_SHOW);
       }
+      for (let i = 1; i < 5; i++) {
+        ScrollReveal().reveal(".img-" + i + "-mobile", CONFIG_IMG_SHOW);
+      }
     },
   },
   mounted() {
@@ -88,6 +115,41 @@ export default {
 </script>
 
 <style scoped>
+.container-img-mobile {
+  height: 430px;
+  width: 100%;
+  position: relative;
+  background-color: #f5f5f6;
+  overflow: hidden;
+}
+.img-1-mobile,
+.img-2-mobile,
+.img-3-mobile,
+.img-4-mobile {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.img-1-mobile {
+  transform: translate(-180px, -160px);
+  width: 268px;
+  z-index: 10;
+}
+.img-2-mobile {
+  transform: translate(-100px, -30px);
+  width: 284px;
+  z-index: 1;
+}
+.img-3-mobile {
+  transform: translate(-30px, 15px);
+  width: 151px;
+  z-index: 2;
+}
+.img-4-mobile {
+  transform: translate(-60px, 120px);
+  width: 129px;
+}
 .container-absolute-our-advantages {
   position: absolute;
   top: 0;

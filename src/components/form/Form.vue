@@ -261,6 +261,7 @@ img {
 @media only screen and (max-width: 768px) {
   .form {
     padding: 15px;
+    padding-top: 0;
     display: block;
   }
   .arrow-form {

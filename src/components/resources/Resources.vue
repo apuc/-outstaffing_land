@@ -423,6 +423,7 @@ h2 {
   .wrapper {
     display: block;
     width: 100%;
+    padding-bottom: 25px;
   }
 
   .wrapper .row {
