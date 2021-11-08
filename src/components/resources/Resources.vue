@@ -159,6 +159,7 @@ export default {
 
 <style scoped>
 .container-img-mobile {
+  display: none;
   position: relative;
   width: 100%;
   height: 500px;
@@ -447,6 +448,9 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+  .container-img-mobile {
+    display: block;
+  }
   .resources-and-technology {
     padding: 15px;
     display: block;
@@ -503,12 +507,7 @@ h2 {
   }
 
   .wrapper .row {
-    display: flex;
-    flex-direction: column;
-    margin-left: 0;
-    margin-top: 30px;
-    min-width: 232px;
-    padding: 0;
+    margin: 0;
   }
 
   .row {
@@ -538,15 +537,26 @@ h2 {
   .wrapper .row {
     margin-top: 3px;
   }
-  .row:last-child {
-    margin: 0;
-    display: none;
-    width: 100%;
-    background-color: white;
-  }
 
   .col-3 + .col-3 {
     margin-top: 22px;
+  }
+
+  .row:last-child {
+    display: none;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .wrapper .row {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 30px;
+    min-width: 232px;
+    padding: 0;
+  }
+  .row:last-child {
+    display: none;
   }
 }
 </style>

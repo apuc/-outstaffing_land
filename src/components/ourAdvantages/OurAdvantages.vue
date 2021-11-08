@@ -116,6 +116,7 @@ export default {
 
 <style scoped>
 .container-img-mobile {
+  display: none;
   height: 430px;
   width: 100%;
   position: relative;
@@ -257,6 +258,9 @@ h2 {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 }
 @media only screen and (min-width: 320px) and (max-width: 768px) {
+  .container-img-mobile {
+    display: block;
+  }
   h2 {
     font-size: 25px;
     line-height: 50px;

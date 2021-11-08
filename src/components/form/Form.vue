@@ -283,6 +283,8 @@ img {
   }
   .arrow-form-mobile {
     display: block;
+    width: 400px;
+    margin: auto;
   }
   label {
     font-size: 15px;
@@ -348,10 +350,21 @@ img {
   .item-specialist img {
     width: 54px;
     height: 64px;
-    margin: auto;
+    margin: auto 0;
+  }
+  .social-link {
+    justify-content: space-around;
   }
   .col-6 > .item-specialist:last-child {
     margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .arrow-form-mobile {
+    width: 100%;
+  }
+  .social-link {
+    justify-content: space-between;
   }
 }
 </style>
