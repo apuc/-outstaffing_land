@@ -132,22 +132,22 @@ export default {
 }
 
 .img-1-mobile {
-  transform: translate(-180px, -160px);
+  transform: translate(-180px, -180px);
   width: 268px;
   z-index: 10;
 }
 .img-2-mobile {
-  transform: translate(-100px, -30px);
+  transform: translate(-100px, -50px);
   width: 284px;
   z-index: 1;
 }
 .img-3-mobile {
-  transform: translate(-30px, 15px);
+  transform: translate(-30px, -10px);
   width: 151px;
   z-index: 2;
 }
 .img-4-mobile {
-  transform: translate(-60px, 120px);
+  transform: translate(-60px, 105px);
   width: 129px;
 }
 .container-absolute-our-advantages {
