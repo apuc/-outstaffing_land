@@ -3,20 +3,20 @@
     <section class="our-advantages">
       <img
         class="arrow-right-top"
-        src="../../assets/img/arrow-right-top.png"
+        src="img/arrow-right-top.png"
         alt="arrow-right-top"
       />
       <div class="container-absolute-our-advantages">
-        <img src="../../assets/img/main-image/28.png" alt="" class="img-1" />
-        <img src="../../assets/img/main-image/29.png" alt="" class="img-2" />
-        <img src="../../assets/img/main-image/30.png" alt="" class="img-3" />
+        <img src="img/main-image/28.png" alt="" class="img-1" />
+        <img src="img/main-image/29.png" alt="" class="img-2" />
+        <img src="img/main-image/30.png" alt="" class="img-3" />
       </div>
       <div class="container">
         <h2>Наши преимущества</h2>
         <div class="row">
           <div class="col-6">
             <div class="wrapper-img">
-              <img src="../../assets/img/plus.png" alt="plus" />
+              <img src="img/plus.png" alt="plus" />
             </div>
             <div class="wrapper-content">
               <div class="title">Быстро и качественно</div>
@@ -28,7 +28,7 @@
           </div>
           <div class="col-6">
             <div class="wrapper-img">
-              <img src="../../assets/img/plus.png" alt="plus" />
+              <img src="img/plus.png" alt="plus" />
             </div>
             <div class="wrapper-content">
               <div class="title">Быстро и качественно</div>
@@ -42,7 +42,7 @@
         <div class="row">
           <div class="col-6">
             <div class="wrapper-img">
-              <img src="../../assets/img/plus.png" alt="plus" />
+              <img src="img/plus.png" alt="plus" />
             </div>
             <div class="wrapper-content">
               <div class="title">Быстро и качественно</div>
@@ -54,7 +54,7 @@
           </div>
           <div class="col-6">
             <div class="wrapper-img">
-              <img src="../../assets/img/plus.png" alt="plus" />
+              <img src="img/plus.png" alt="plus" />
             </div>
             <div class="wrapper-content">
               <div class="title">Быстро и качественно</div>
@@ -68,26 +68,10 @@
       </div>
     </section>
     <div class="container-img-mobile">
-      <img
-        src="../../assets/img/main-image/27.png"
-        alt="27"
-        class="img-1-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/28.png"
-        alt="28"
-        class="img-2-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/29.png"
-        alt="29"
-        class="img-3-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/30.png"
-        alt="30"
-        class="img-4-mobile"
-      />
+      <img src="img/main-image/27.png" alt="27" class="img-1-mobile" />
+      <img src="img/main-image/28.png" alt="28" class="img-2-mobile" />
+      <img src="img/main-image/29.png" alt="29" class="img-3-mobile" />
+      <img src="img/main-image/30.png" alt="30" class="img-4-mobile" />
     </div>
   </div>
 </template>

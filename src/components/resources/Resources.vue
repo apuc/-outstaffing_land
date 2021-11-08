@@ -4,18 +4,18 @@
       <div class="container-absolute-resources">
         <img
           class="background-right"
-          src="../../assets/img/background-right.png"
+          src="img/background-right.png"
           alt="right"
         />
-        <img src="../../assets/img/main-image/19.png" alt="" class="img-1" />
-        <img src="../../assets/img/main-image/20.png" alt="" class="img-2" />
-        <img src="../../assets/img/main-image/21.png" alt="" class="img-3" />
-        <img src="../../assets/img/main-image/22.png" alt="" class="img-4" />
-        <img src="../../assets/img/main-image/23.png" alt="" class="img-5" />
-        <img src="../../assets/img/main-image/24.png" alt="" class="img-6" />
-        <img src="../../assets/img/main-image/25.png" alt="" class="img-7" />
-        <img src="../../assets/img/main-image/26.png" alt="" class="img-8" />
-        <img src="../../assets/img/main-image/27.png" alt="" class="img-9" />
+        <img src="img/main-image/19.png" alt="" class="img-1" />
+        <img src="img/main-image/20.png" alt="" class="img-2" />
+        <img src="img/main-image/21.png" alt="" class="img-3" />
+        <img src="img/main-image/22.png" alt="" class="img-4" />
+        <img src="img/main-image/23.png" alt="" class="img-5" />
+        <img src="img/main-image/24.png" alt="" class="img-6" />
+        <img src="img/main-image/25.png" alt="" class="img-7" />
+        <img src="img/main-image/26.png" alt="" class="img-8" />
+        <img src="img/main-image/27.png" alt="" class="img-9" />
       </div>
       <div class="container-background-white">
         <div class="wrapper">
@@ -28,7 +28,7 @@
           <div class="row">
             <div class="col-3">
               <div class="wrapper-col">
-                <img src="../../assets/img/Laravel.png" alt="Laravel" />
+                <img src="img/Laravel.png" alt="Laravel" />
                 <div class="paragraph">
                   PHP Framework<br />
                   For Web Artisans
@@ -37,7 +37,7 @@
             </div>
             <div class="col-3">
               <div class="wrapper-col">
-                <img src="../../assets/img/Vue.png" alt="Vue" />
+                <img src="img/Vue.png" alt="Vue" />
                 <div class="paragraph">
                   Прогрессивный<br />
                   JavaScript-фреймворк.
@@ -46,7 +46,7 @@
             </div>
             <div class="col-3">
               <div class="wrapper-col">
-                <img src="../../assets/img/Ux.png" alt="Ux" />
+                <img src="img/Ux.png" alt="Ux" />
                 <div class="paragraph">
                   Дизайн взаимодействия<br />
                   с пользователем
@@ -55,7 +55,7 @@
             </div>
             <div class="col-3">
               <div class="wrapper-col">
-                <img src="../../assets/img/Digital.png" alt="Digital" />
+                <img src="img/Digital.png" alt="Digital" />
                 <div class="paragraph">
                   Комплексный инфлюенс<br />
                   маркетинг
@@ -91,46 +91,14 @@
       </div>
     </section>
     <div class="container-img-mobile">
-      <img
-        src="../../assets/img/main-image/19.png"
-        alt=""
-        class="img-5-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/20.png"
-        alt=""
-        class="img-6-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/21.png"
-        alt=""
-        class="img-7-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/22.png"
-        alt=""
-        class="img-8-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/23.png"
-        alt=""
-        class="img-9-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/24.png"
-        alt=""
-        class="img-10-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/25.png"
-        alt=""
-        class="img-11-mobile"
-      />
-      <img
-        src="../../assets/img/main-image/26.png"
-        alt=""
-        class="img-12-mobile"
-      />
+      <img src="img/main-image/19.png" alt="" class="img-5-mobile" />
+      <img src="img/main-image/20.png" alt="" class="img-6-mobile" />
+      <img src="img/main-image/21.png" alt="" class="img-7-mobile" />
+      <img src="img/main-image/22.png" alt="" class="img-8-mobile" />
+      <img src="img/main-image/23.png" alt="" class="img-9-mobile" />
+      <img src="img/main-image/24.png" alt="" class="img-10-mobile" />
+      <img src="img/main-image/25.png" alt="" class="img-11-mobile" />
+      <img src="img/main-image/26.png" alt="" class="img-12-mobile" />
     </div>
   </div>
 </template>
@@ -416,7 +384,7 @@ export default {
 }
 
 .container-background-white {
-  background-image: url("../../assets/img/background-white.png");
+  background-image: url("/img/background-white.png");
   text-align: center;
 }
 
@@ -466,6 +434,9 @@ h2 {
     height: 8px;
     right: 0px;
     top: 1px;
+  }
+  .col-3:nth-child(2n + 1) {
+    margin-top: 0px;
   }
   .container-absolute-resources {
     display: none;
@@ -539,7 +510,7 @@ h2 {
   }
 
   .col-3 + .col-3 {
-    margin-top: 22px;
+    margin-top: 0px;
   }
 
   .row:last-child {
@@ -554,6 +525,9 @@ h2 {
     margin-top: 30px;
     min-width: 232px;
     padding: 0;
+  }
+  .col-3 + .col-3 {
+    margin-top: 22px;
   }
   .row:last-child {
     display: none;

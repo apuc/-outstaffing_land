@@ -3,15 +3,15 @@
     <div class="row">
       <div class="col-6 mt-170">
         <div class="item-specialist">
-          <img src="../../assets/img/15.png" alt="" />
+          <img src="img/15.png" alt="" />
           <p>Свободных специалистов</p>
         </div>
         <div class="item-specialist">
-          <img src="../../assets/img/15.png" alt="" />
+          <img src="img/15.png" alt="" />
           <p>Свободных специалистов</p>
         </div>
         <div class="item-specialist">
-          <img src="../../assets/img/15.png" alt="" />
+          <img src="img/15.png" alt="" />
           <p>Свободных специалистов</p>
         </div>
       </div>
@@ -25,13 +25,9 @@
           <button>Войти</button>
         </div>
       </div>
-      <img class="arrow-form" src="../../assets/img/arrow-form.png" alt="" />
+      <img class="arrow-form" src="img/arrow-form.png" alt="" />
     </div>
-    <img
-      class="arrow-form-mobile"
-      src="../../assets/img/arrow-form.png"
-      alt=""
-    />
+    <img class="arrow-form-mobile" src="img/arrow-form.png" alt="" />
     <div class="row">
       <div class="copyright">© 2000-2021 ООО «ИГД»</div>
       <div class="social-link">
@@ -211,7 +207,7 @@ p {
   height: 666px;
   border-radius: 12px;
   background-color: #e1fccf;
-  background-image: url(../../assets/img/background_form.png);
+  background-image: url(/img/background_form.png);
   background-repeat: no-repeat;
   -moz-background-size: 100%;
   -webkit-background-size: 100%;

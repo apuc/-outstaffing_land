@@ -1,64 +1,60 @@
 <template>
   <section class="it_specialist">
-    <div class="container-absolute-it-specialist" style="padding: 15px;">
-      <div class="number-specialist">
-        20 специалистов
-      </div>
+    <div class="container-absolute-it-specialist" style="padding: 15px">
+      <div class="number-specialist">20 специалистов</div>
       <div class="square">
-        <img class="img-1" src="../../assets/img/main-image/10.png" alt="1">
+        <img class="img-1" src="img/main-image/10.png" alt="1" />
       </div>
-      <img src="../../assets/img/main-image/11.png" alt="" class="img-2">
-      <img src="../../assets/img/main-image/12.png" alt="" class="img-3">
-      <img src="../../assets/img/main-image/13.png" alt="" class="img-4">
-      <img src="../../assets/img/main-image/14.png" alt="" class="img-5">
-      <img src="../../assets/img/main-image/15.png" alt="" class="img-6">
-      <img src="../../assets/img/main-image/17.png" alt="" class="img-7">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-8">
-      <img src="../../assets/img/main-image/18.png" alt="" class="img-9">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-10">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-11">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-12">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-13">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-14">
+      <img src="img/main-image/11.png" alt="" class="img-2" />
+      <img src="img/main-image/12.png" alt="" class="img-3" />
+      <img src="img/main-image/13.png" alt="" class="img-4" />
+      <img src="img/main-image/14.png" alt="" class="img-5" />
+      <img src="img/main-image/15.png" alt="" class="img-6" />
+      <img src="img/main-image/17.png" alt="" class="img-7" />
+      <img src="img/main-image/16.png" alt="" class="img-8" />
+      <img src="img/main-image/18.png" alt="" class="img-9" />
+      <img src="img/main-image/16.png" alt="" class="img-10" />
+      <img src="img/main-image/16.png" alt="" class="img-11" />
+      <img src="img/main-image/16.png" alt="" class="img-12" />
+      <img src="img/main-image/16.png" alt="" class="img-13" />
+      <img src="img/main-image/16.png" alt="" class="img-14" />
     </div>
     <div class="container">
       <div class="wrapper">
-        <h2>Своя база
-          <div class="h2--green">
-            &nbsp;IT-специалистов
-          </div>
+        <h2>
+          Своя база
+          <div class="h2--green">&nbsp;IT-специалистов</div>
         </h2>
       </div>
       <div class="row">
         <div class="col-410">
           <div class="wrapper-410">
-            <div class="heading">
-              Наша первоочередная цель –
-            </div>
+            <div class="heading">Наша первоочередная цель –</div>
             <div class="paragraph">
-              обеспечить цифровое лидерство вашего бренда благодаря высокой квалификации наших разработчиков, передовым
-              техлогиями и прозрачным процессом.
+              обеспечить цифровое лидерство вашего бренда благодаря высокой
+              квалификации наших разработчиков, передовым техлогиями и
+              прозрачным процессом.
             </div>
           </div>
         </div>
         <div class="mobile-wrapper">
-          <h2>Своя база
-            <div class="h2--green">
-              &nbsp;IT-специалистов
-            </div>
+          <h2>
+            Своя база
+            <div class="h2--green">&nbsp;IT-специалистов</div>
           </h2>
         </div>
         <div class="col-670">
           <div class="background-img-green">
-            <div class="heading">
-              Упор на качественный продукт
-            </div>
+            <div class="heading">Упор на качественный продукт</div>
           </div>
-          <div class="paragraph">Оперативно подключим к вашему проекту команду IT-специалистов.</div>
-          <div class="paragraph">Гибкие ставки. Все кандидаты уровня Middle, Senior.<br>
-            Быстрый выход на проекты.Гибкие ставки. Все кандидаты уровня
-            Middle, Senior. Быстрый выход на проекты.Гибкие ставки. В<br>
-            се кандидаты уровня Middle, Senior. Быстрый выход на проекты.Гибк<br>
+          <div class="paragraph">
+            Оперативно подключим к вашему проекту команду IT-специалистов.
+          </div>
+          <div class="paragraph">
+            Гибкие ставки. Все кандидаты уровня Middle, Senior.<br />
+            Быстрый выход на проекты.Гибкие ставки. Все кандидаты уровня Middle,
+            Senior. Быстрый выход на проекты.Гибкие ставки. В<br />
+            се кандидаты уровня Middle, Senior. Быстрый выход на проекты.Гибк<br />
             ие ставки. Все кандидаты уровня Middle, Senior. Быстрый выход на
             проекты.
           </div>
@@ -66,41 +62,41 @@
       </div>
     </div>
     <div class="mobile-wrapper-img">
-      <img src="../../assets/img/main-image/11.png" alt="" class="img-15">
-      <img src="../../assets/img/main-image/14.png" alt="" class="img-16">
-      <img src="../../assets/img/main-image/15.png" alt="" class="img-17">
-      <img src="../../assets/img/main-image/16.png" alt="" class="img-18">
-      <img src="../../assets/img/main-image/17.png" alt="" class="img-19">
+      <img src="img/main-image/11.png" alt="" class="img-15" />
+      <img src="img/main-image/14.png" alt="" class="img-16" />
+      <img src="img/main-image/15.png" alt="" class="img-17" />
+      <img src="img/main-image/16.png" alt="" class="img-18" />
+      <img src="img/main-image/17.png" alt="" class="img-19" />
     </div>
   </section>
 </template>
 
 <script>
-import ScrollReveal from 'scrollreveal';
-import {CONFIG_IMG_SHOW} from "../../../constants/config";
+import ScrollReveal from "scrollreveal";
+import { CONFIG_IMG_SHOW } from "../../../constants/config";
 
 export default {
   name: "ItSpecialist",
   methods: {
     getScroll: function () {
       for (let i = 1; i < 20; i++) {
-        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+        ScrollReveal().reveal(".img-" + i, CONFIG_IMG_SHOW);
       }
-    }
+    },
   },
   mounted() {
-    this.getScroll()
-  }
-}
+    this.getScroll();
+  },
+};
 </script>
 
 <style scoped>
 @keyframes moving {
   from {
-    transform: rotate(0)
+    transform: rotate(0);
   }
   to {
-    transform: rotate(-360deg)
+    transform: rotate(-360deg);
   }
 }
 
@@ -131,7 +127,7 @@ export default {
   left: 50%;
   width: 241px;
   height: 199px;
-  transform: translate(-63px, -232px)!important
+  transform: translate(-63px, -232px) !important;
 }
 
 .mobile-wrapper-img .img-16 {
@@ -139,7 +135,7 @@ export default {
   left: 50%;
   width: 235px;
   height: 241px;
-  transform: translate(-133px, -53px)!important;
+  transform: translate(-133px, -53px) !important;
 }
 
 .mobile-wrapper-img .img-17 {
@@ -147,7 +143,7 @@ export default {
   left: 50%;
   width: 125px;
   height: 151px;
-  transform: translate(-103px, -23px)!important;
+  transform: translate(-103px, -23px) !important;
 }
 
 .mobile-wrapper-img .img-18 {
@@ -155,7 +151,7 @@ export default {
   left: 50%;
   width: 45px;
   height: 34px;
-  transform: translate(87px, 131px)!important;
+  transform: translate(87px, 131px) !important;
 }
 
 .mobile-wrapper {
@@ -167,14 +163,39 @@ export default {
   left: 50%;
   width: 92px;
   height: 55px;
-  transform: translate(-133px, 148px)!important;
+  transform: translate(-133px, 148px) !important;
 }
 
-.container-absolute-it-specialist, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14 {
+.container-absolute-it-specialist,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12,
+.img-13,
+.img-14 {
   position: absolute;
 }
 
-.img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9, .img-10, .img-11, .img-12, .img-13, .img-14 {
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9,
+.img-10,
+.img-11,
+.img-12,
+.img-13,
+.img-14 {
   z-index: 1;
 }
 
@@ -321,7 +342,7 @@ export default {
 }
 
 .background-img-green {
-  background-image: url("../../assets/img/background-green.png");
+  background-image: url("/img/background-green.png");
   margin-top: 20px;
   margin-bottom: 90px;
   -moz-background-size: 100%;
@@ -335,11 +356,9 @@ export default {
   position: absolute;
   top: 130px;
   left: 70px;
-  -webkit-transform: rotate(
-      -90deg);
+  -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
-  transform: rotate(
-      -90deg);
+  transform: rotate(-90deg);
   font-size: 21px;
   line-height: 37px;
   color: #000000;
@@ -406,7 +425,8 @@ h2 {
     font-weight: 500;
   }
 
-  .mobile-wrapper, .mobile-wrapper-img  {
+  .mobile-wrapper,
+  .mobile-wrapper-img {
     display: block;
   }
 
@@ -433,7 +453,6 @@ h2 {
     height: 76px;
     top: 52px;
     left: 0;
-
   }
 
   img.img-2 {
@@ -487,7 +506,7 @@ h2 {
   .row {
     margin-top: 0;
     z-index: 1;
-    display: inline-block
+    display: inline-block;
   }
 
   .wrapper {
@@ -535,7 +554,7 @@ h2 {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-100px, -90px)
+    transform: translate(-100px, -90px);
   }
 
   .square img {
@@ -553,15 +572,25 @@ h2 {
     width: auto;
   }
 
-  .img-14, .img-13, .img-12, .img-11, .img-10, .img-8, .img-7, .img-6, .img-5 {
+  .img-14,
+  .img-13,
+  .img-12,
+  .img-11,
+  .img-10,
+  .img-8,
+  .img-7,
+  .img-6,
+  .img-5 {
     display: none;
   }
-
 }
 
 @media only screen and (min-width: 425px) and (max-width: 768px) {
   .wrapper {
     justify-content: center;
+  }
+  .number-specialist {
+    display: none;
   }
 }
 </style>
