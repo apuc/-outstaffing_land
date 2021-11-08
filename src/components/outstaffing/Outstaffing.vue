@@ -1,32 +1,39 @@
 <template>
   <section class="outstaffing">
-    <img class="background-circle" src="../../assets/img/circle-background.png" alt="background-circle">
+    <img
+      class="background-circle"
+      src="img/circle-background.png"
+      alt="background-circle"
+    />
     <h2 class="z-index-1">RUBY ON RAIlS - PHP - PYTHON - VUE.JS - REACT. JS</h2>
     <div class="container">
-      <img class="arrow-right-top" src="../../assets/img/arrow-right-top.png" alt="arrow-right-top">
+      <img
+        class="arrow-right-top"
+        src="img/arrow-right-top.png"
+        alt="arrow-right-top"
+      />
       <h1>
         <div class="h1--black">IT</div>
         &nbsp;АУТСТАФИНГ
       </h1>
       <div class="wrapper">
         <div class="paragraph">
-          Подберем и документально оформим IT-специалистов, после чего передадим исполнителей под ваше руководство. Вы
-          получаете полное управление над сотрудниками, имея возможность контролировать и заменять IT штат.
+          Подберем и документально оформим IT-специалистов, после чего передадим
+          исполнителей под ваше руководство. Вы получаете полное управление над
+          сотрудниками, имея возможность контролировать и заменять IT штат.
         </div>
-        <button class="autorization">
-          Войти
-        </button>
+        <button class="autorization">Войти</button>
       </div>
       <div class="container-absolute-outstaffing">
-        <img class="img-1" src="../../assets/img/main-image/1.png" alt="1">
-        <img class="img-2" src="../../assets/img/main-image/2.png" alt="2">
-        <img class="img-3" src="../../assets/img/main-image/3.png" alt="3">
-        <img class="img-4" src="../../assets/img/main-image/4.png" alt="4">
-        <img class="img-5" src="../../assets/img/main-image/5.png" alt="5">
-        <img class="img-6" src="../../assets/img/main-image/6.png" alt="6">
-        <img class="img-7" src="../../assets/img/main-image/7.png" alt="7">
-        <img class="img-8" src="../../assets/img/main-image/8.png" alt="8">
-        <img class="img-9" src="../../assets/img/main-image/9.png" alt="9">
+        <img class="img-1" src="img/main-image/1.png" alt="1" />
+        <img class="img-2" src="img/main-image/2.png" alt="2" />
+        <img class="img-3" src="img/main-image/3.png" alt="3" />
+        <img class="img-4" src="img/main-image/4.png" alt="4" />
+        <img class="img-5" src="img/main-image/5.png" alt="5" />
+        <img class="img-6" src="img/main-image/6.png" alt="6" />
+        <img class="img-7" src="img/main-image/7.png" alt="7" />
+        <img class="img-8" src="img/main-image/8.png" alt="8" />
+        <img class="img-9" src="img/main-image/9.png" alt="9" />
       </div>
       <div class="background--gray"></div>
     </div>
@@ -34,22 +41,22 @@
 </template>
 
 <script>
-import ScrollReveal from 'scrollreveal';
-import {CONFIG_IMG_SHOW} from "../../../constants/config";
+import ScrollReveal from "scrollreveal";
+import { CONFIG_IMG_SHOW } from "../../../constants/config";
 
 export default {
   name: "Outstaffing",
   methods: {
     getScroll: function () {
       for (let i = 1; i < 10; i++) {
-        ScrollReveal().reveal('.img-' + i, CONFIG_IMG_SHOW)
+        ScrollReveal().reveal(".img-" + i, CONFIG_IMG_SHOW);
       }
-    }
+    },
   },
   mounted() {
-    this.getScroll()
-  }
-}
+    this.getScroll();
+  },
+};
 </script>
 
 <style scoped>
@@ -78,7 +85,15 @@ export default {
   background-color: #f4f7f7;
 }
 
-.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7,
+.img-8,
+.img-9 {
   position: absolute;
   z-index: 1;
 }
@@ -137,7 +152,7 @@ button:hover {
   background-color: #ffffff;
   border: 2px solid #6aaf5c;
   color: #6aaf5c !important;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .autorization {
@@ -147,9 +162,14 @@ button:hover {
   box-shadow: 6px 5px 20px rgb(82, 151, 34, 0.21);
   border-radius: 38px;
   background-color: #fff;
-  background-image: linear-gradient(
-      0deg, #6aaf5c 0, #52b709), linear-gradient(
-      36deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .16) 47%, hsla(0, 0%, 100%, .17) 50%, hsla(0, 0%, 100%, 0));
+  background-image: linear-gradient(0deg, #6aaf5c 0, #52b709),
+    linear-gradient(
+      36deg,
+      hsla(0, 0%, 100%, 0),
+      hsla(0, 0%, 100%, 0.16) 47%,
+      hsla(0, 0%, 100%, 0.17) 50%,
+      hsla(0, 0%, 100%, 0)
+    );
   color: #fff;
   font-family: "Muller", serif;
   font-weight: 700;
@@ -234,11 +254,10 @@ h2 {
   }
 }
 
-
 @media only screen and (max-width: 768px) {
   .outstaffing {
     padding-top: 50px;
-    padding-left:19px;
+    padding-left: 19px;
     padding-right: 19px;
     background-color: #ffffff;
   }

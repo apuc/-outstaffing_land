@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <Header/>
-    <Outstaffing/>
-    <ItSpecialist/>
-    <Resources/>
-    <OurAdvantages/>
-    <Form/>
-    <Footer/>
+    <Header />
+    <Outstaffing />
+    <ItSpecialist />
+    <Resources />
+    <OurAdvantages />
+    <Form />
+    <Footer />
   </div>
 </template>
 
@@ -18,13 +18,9 @@ import Resources from "@/components/resources/Resources";
 import OurAdvantages from "@/components/ourAdvantages/OurAdvantages";
 import Form from "@/components/form/Form";
 import Footer from "@/components/footer/Footer";
-import Vue from 'vue';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
 
-Vue.use(ElementUI);
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Outstaffing,
@@ -33,12 +29,11 @@ export default {
     OurAdvantages,
     Form,
     Footer,
-  }
-}
+  },
+};
 </script>
 
 <style>
-
 body {
   margin: 0;
   padding: 0;
