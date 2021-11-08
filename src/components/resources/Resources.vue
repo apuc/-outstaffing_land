@@ -1,94 +1,138 @@
 <template>
-  <section class="resources-and-technology">
-    <div class="container-absolute-resources">
-      <img
-        class="background-right"
-        src="../../assets/img/background-right.png"
-        alt="right"
-      />
-      <img src="../../assets/img/main-image/19.png" alt="" class="img-1" />
-      <img src="../../assets/img/main-image/20.png" alt="" class="img-2" />
-      <img src="../../assets/img/main-image/21.png" alt="" class="img-3" />
-      <img src="../../assets/img/main-image/22.png" alt="" class="img-4" />
-      <img src="../../assets/img/main-image/23.png" alt="" class="img-5" />
-      <img src="../../assets/img/main-image/24.png" alt="" class="img-6" />
-      <img src="../../assets/img/main-image/25.png" alt="" class="img-7" />
-      <img src="../../assets/img/main-image/26.png" alt="" class="img-8" />
-      <img src="../../assets/img/main-image/27.png" alt="" class="img-9" />
-    </div>
-    <div class="container-background-white">
-      <div class="wrapper">
-        <div class="align-left-container">
-          <h2>Ресурсы и технологии</h2>
-          <div class="h2-paragraph">
-            Подключение от 3 дней. Более 300 специалистов в штате
+  <div>
+    <section class="resources-and-technology">
+      <div class="container-absolute-resources">
+        <img
+          class="background-right"
+          src="../../assets/img/background-right.png"
+          alt="right"
+        />
+        <img src="../../assets/img/main-image/19.png" alt="" class="img-1" />
+        <img src="../../assets/img/main-image/20.png" alt="" class="img-2" />
+        <img src="../../assets/img/main-image/21.png" alt="" class="img-3" />
+        <img src="../../assets/img/main-image/22.png" alt="" class="img-4" />
+        <img src="../../assets/img/main-image/23.png" alt="" class="img-5" />
+        <img src="../../assets/img/main-image/24.png" alt="" class="img-6" />
+        <img src="../../assets/img/main-image/25.png" alt="" class="img-7" />
+        <img src="../../assets/img/main-image/26.png" alt="" class="img-8" />
+        <img src="../../assets/img/main-image/27.png" alt="" class="img-9" />
+      </div>
+      <div class="container-background-white">
+        <div class="wrapper">
+          <div class="align-left-container">
+            <h2>Ресурсы и технологии</h2>
+            <div class="h2-paragraph">
+              Подключение от 3 дней. Более 300 специалистов в штате
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-3">
-            <div class="wrapper-col">
-              <img src="../../assets/img/Laravel.png" alt="Laravel" />
-              <div class="paragraph">
-                PHP Framework<br />
-                For Web Artisans
+          <div class="row">
+            <div class="col-3">
+              <div class="wrapper-col">
+                <img src="../../assets/img/Laravel.png" alt="Laravel" />
+                <div class="paragraph">
+                  PHP Framework<br />
+                  For Web Artisans
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="wrapper-col">
+                <img src="../../assets/img/Vue.png" alt="Vue" />
+                <div class="paragraph">
+                  Прогрессивный<br />
+                  JavaScript-фреймворк.
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="wrapper-col">
+                <img src="../../assets/img/Ux.png" alt="Ux" />
+                <div class="paragraph">
+                  Дизайн взаимодействия<br />
+                  с пользователем
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="wrapper-col">
+                <img src="../../assets/img/Digital.png" alt="Digital" />
+                <div class="paragraph">
+                  Комплексный инфлюенс<br />
+                  маркетинг
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-3">
-            <div class="wrapper-col">
-              <img src="../../assets/img/Vue.png" alt="Vue" />
-              <div class="paragraph">
-                Прогрессивный<br />
-                JavaScript-фреймворк.
-              </div>
+          <div class="row">
+            <div class="wrapper-lang">
+              <p>Ruby on Rails</p>
+              <p>Php</p>
+              <p>Python</p>
+              <p>VueJS</p>
+              <p>React.js</p>
             </div>
-          </div>
-          <div class="col-3">
-            <div class="wrapper-col">
-              <img src="../../assets/img/Ux.png" alt="Ux" />
-              <div class="paragraph">
-                Дизайн взаимодействия<br />
-                с пользователем
-              </div>
+            <div class="wrapper-lang">
+              <p>Djungo</p>
+              <p>Flask</p>
+              <p>Pyramid</p>
             </div>
-          </div>
-          <div class="col-3">
-            <div class="wrapper-col">
-              <img src="../../assets/img/Digital.png" alt="Digital" />
-              <div class="paragraph">
-                Комплексный инфлюенс<br />
-                маркетинг
-              </div>
+            <div class="wrapper-lang">
+              <p>Cto</p>
+              <p>Manager</p>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="wrapper-lang">
-            <p>Ruby on Rails</p>
-            <p>Php</p>
-            <p>Python</p>
-            <p>VueJS</p>
-            <p>React.js</p>
-          </div>
-          <div class="wrapper-lang">
-            <p>Djungo</p>
-            <p>Flask</p>
-            <p>Pyramid</p>
-          </div>
-          <div class="wrapper-lang">
-            <p>Cto</p>
-            <p>Manager</p>
-          </div>
-          <div class="wrapper-lang">
-            <p>Sql</p>
-            <p>Mysql</p>
-            <p>Redis</p>
-            <p>Ealm</p>
+            <div class="wrapper-lang">
+              <p>Sql</p>
+              <p>Mysql</p>
+              <p>Redis</p>
+              <p>Ealm</p>
+            </div>
           </div>
         </div>
       </div>
+    </section>
+    <div class="container-img-mobile">
+      <img
+        src="../../assets/img/main-image/19.png"
+        alt=""
+        class="img-5-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/20.png"
+        alt=""
+        class="img-6-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/21.png"
+        alt=""
+        class="img-7-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/22.png"
+        alt=""
+        class="img-8-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/23.png"
+        alt=""
+        class="img-9-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/24.png"
+        alt=""
+        class="img-10-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/25.png"
+        alt=""
+        class="img-11-mobile"
+      />
+      <img
+        src="../../assets/img/main-image/26.png"
+        alt=""
+        class="img-12-mobile"
+      />
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
@@ -102,6 +146,9 @@ export default {
       for (let i = 1; i < 10; i++) {
         ScrollReveal().reveal(".img-" + i, CONFIG_IMG_SHOW);
       }
+      for (let i = 5; i < 13; i++) {
+        ScrollReveal().reveal(".img-" + i + "-mobile", CONFIG_IMG_SHOW);
+      }
     },
   },
   mounted() {
@@ -111,6 +158,68 @@ export default {
 </script>
 
 <style scoped>
+.container-img-mobile {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.img-5-mobile,
+.img-6-mobile,
+.img-7-mobile,
+.img-8-mobile,
+.img-9-mobile,
+.img-10-mobile,
+.img-11-mobile,
+.img-12-mobile {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 100px; */
+}
+.img-5-mobile {
+  width: 313px;
+  top: 0;
+  transform: translate(-200px, 0px);
+}
+.img-6-mobile {
+  width: 48px;
+  transform: translate(-80px, -170px);
+  z-index: 2;
+}
+.img-7-mobile {
+  width: 65px;
+  transform: translate(-80px, -200px);
+  z-index: 1;
+}
+
+.img-8-mobile {
+  width: 157px;
+  transform: translate(0px, -70px);
+}
+
+.img-9-mobile {
+  width: 77px;
+  transform: translate(-60px, -60px);
+}
+
+.img-10-mobile {
+  width: 280px;
+  transform: translate(-130px, 0px);
+}
+
+.img-11-mobile {
+  width: 45px;
+  transform: translate(-30px, 50px);
+  z-index: 1;
+}
+
+.img-12-mobile {
+  width: 65px;
+  transform: translate(30px, -10px);
+  z-index: 1;
+}
+
 .resources-and-technology {
   position: relative;
 }
