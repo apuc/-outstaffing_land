@@ -157,6 +157,7 @@ button:hover {
 
 .autorization {
   margin-top: 83px;
+  margin-bottom: 40px;
   width: 268px;
   height: 75px;
   box-shadow: 6px 5px 20px rgb(82, 151, 34, 0.21);
@@ -173,7 +174,7 @@ button:hover {
   color: #fff;
   font-family: "Muller", serif;
   font-weight: 700;
-  font-size: 2.2em;
+  font-size: 1.8em;
   letter-spacing: normal;
   line-height: 71.88px;
   text-align: center;
@@ -213,6 +214,7 @@ h1 {
   line-height: 249px;
   font-weight: bold;
   color: #4caf50;
+  margin-bottom: 0;
 }
 
 .paragraph {
@@ -226,6 +228,8 @@ h1 {
   margin-right: 280px;
   text-align: left;
   margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .h1--black {
@@ -268,6 +272,9 @@ h2 {
     position: relative;
     top: 0;
     left: 0;
+  }
+  .paragraph {
+    margin: 0;
   }
 
   img.img-1 {

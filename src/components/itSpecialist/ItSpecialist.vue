@@ -489,7 +489,7 @@ h2 {
     z-index: 0;
     left: 50%;
     top: 50%;
-    transform: translate(22px, -106px);
+    transform: translate(22px, -100px);
   }
 
   .container {

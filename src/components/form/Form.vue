@@ -18,10 +18,10 @@
       <div class="col-6">
         <div class="wrapper-form">
           <div class="send-a-request">Отправить запрос</div>
-          <label for="login">Ваш логин:</label>
-          <input id="login" type="text" placeholder="Логин" />
-          <label for="password">Пароль:</label>
-          <input id="password" type="text" placeholder="Пароль" />
+          <label for="login">Ваше имя:</label>
+          <input id="login" type="text" placeholder="Имя" />
+          <label for="password">Телефон:</label>
+          <input id="password" type="text" placeholder="Телефон" />
           <button>Войти</button>
         </div>
       </div>
@@ -127,7 +127,7 @@ input {
   background-color: #ffffff;
   border: 1px solid #c4c4c4;
   padding: 30px 40px;
-  font-size: 22px;
+  font-size: 15px;
   letter-spacing: 1px;
   color: #a6a6a6;
   font-family: "GT Eesti Pro Display", serif;
@@ -190,7 +190,11 @@ button {
 .col-6 > .item-specialist:last-child {
   margin-bottom: 240px;
 }
-
+.item-specialist img {
+  width: 70px;
+  height: 84px;
+  margin: auto;
+}
 p {
   font-size: 30px;
   line-height: 40px;

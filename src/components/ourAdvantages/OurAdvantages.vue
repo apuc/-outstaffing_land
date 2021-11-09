@@ -189,6 +189,7 @@ export default {
 }
 
 h2 {
+  font-family: "GT Eesti Pro Display", serif;
   margin-bottom: 70px;
   padding-top: 26px;
   font-size: 50px;

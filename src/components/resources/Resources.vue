@@ -144,7 +144,6 @@ export default {
   position: absolute;
   top: 50%;
   left: 50%;
-  /* width: 100px; */
 }
 .img-5-mobile {
   width: 313px;
@@ -275,6 +274,7 @@ export default {
   padding-left: 38px;
   text-align: left;
   flex: 1;
+  z-index: 13;
 }
 
 .wrapper {
@@ -313,12 +313,18 @@ export default {
 .wrapper-lang p {
   text-decoration: underline;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 22px;
   letter-spacing: -1px;
   margin-bottom: 40px;
   color: #1f1f1f;
   font-family: "GT Eesti Pro Display", serif;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.wrapper-lang p:hover {
+  color: #1d8121;
+  text-decoration: none;
 }
 
 .wrapper-col {
@@ -344,7 +350,7 @@ export default {
   justify-content: space-between;
   max-width: 1190px;
   margin-left: 85px;
-  margin-top: 120px;
+  margin-top: 100px;
 }
 
 .col-3 p {
@@ -405,6 +411,7 @@ export default {
 
 h2 {
   margin-top: 230px;
+  margin-bottom: 70px;
   max-width: 272px;
   text-align: left;
   font-size: 50px;
