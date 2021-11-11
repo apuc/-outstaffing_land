@@ -26,7 +26,11 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-3">
+            <div
+              class="col-3"
+              @mouseover="upHere1 = true"
+              @mouseleave="upHere1 = false"
+            >
               <div class="wrapper-col">
                 <img src="img/Laravel.png" alt="Laravel" />
                 <div class="paragraph">
@@ -35,7 +39,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-3"
+              @mouseover="upHere2 = true"
+              @mouseleave="upHere2 = false"
+            >
               <div class="wrapper-col">
                 <img src="img/Vue.png" alt="Vue" />
                 <div class="paragraph">
@@ -44,7 +52,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-3"
+              @mouseover="upHere3 = true"
+              @mouseleave="upHere3 = false"
+            >
               <div class="wrapper-col">
                 <img src="img/Ux.png" alt="Ux" />
                 <div class="paragraph">
@@ -53,7 +65,11 @@
                 </div>
               </div>
             </div>
-            <div class="col-3">
+            <div
+              class="col-3"
+              @mouseover="upHere4 = true"
+              @mouseleave="upHere4 = false"
+            >
               <div class="wrapper-col">
                 <img src="img/Digital.png" alt="Digital" />
                 <div class="paragraph">
@@ -65,26 +81,40 @@
           </div>
           <div class="row">
             <div class="wrapper-lang">
-              <p>Ruby on Rails</p>
-              <p>Php</p>
-              <p>Python</p>
-              <p>VueJS</p>
-              <p>React.js</p>
+              <p
+                v-for="item in lang1"
+                :class="{ hoverLang: upHere1 }"
+                :key="item.name"
+              >
+                {{ item.name }}
+              </p>
             </div>
             <div class="wrapper-lang">
-              <p>Djungo</p>
-              <p>Flask</p>
-              <p>Pyramid</p>
+              <p
+                v-for="item in lang2"
+                :class="{ hoverLang: upHere2 }"
+                :key="item.name"
+              >
+                {{ item.name }}
+              </p>
             </div>
             <div class="wrapper-lang">
-              <p>Cto</p>
-              <p>Manager</p>
+              <p
+                v-for="item in lang3"
+                :class="{ hoverLang: upHere3 }"
+                :key="item.name"
+              >
+                {{ item.name }}
+              </p>
             </div>
             <div class="wrapper-lang">
-              <p>Sql</p>
-              <p>Mysql</p>
-              <p>Redis</p>
-              <p>Ealm</p>
+              <p
+                v-for="item in lang4"
+                :class="{ hoverLang: upHere4 }"
+                :key="item.name"
+              >
+                {{ item.name }}
+              </p>
             </div>
           </div>
         </div>
@@ -109,6 +139,24 @@ import { CONFIG_IMG_SHOW } from "../../../constants/config";
 
 export default {
   name: "Resources",
+  data() {
+    return {
+      upHere1: false,
+      upHere2: false,
+      upHere3: false,
+      upHere4: false,
+      lang1: [
+        { name: "Ruby on Rails" },
+        { name: "Php" },
+        { name: "Python" },
+        { name: "VueJS" },
+        { name: "React.js" },
+      ],
+      lang2: [{ name: "Djungo" }, { name: "Flask" }, { name: "Pyramid" }],
+      lang3: [{ name: "Cto" }, { name: "Manager" }],
+      lang4: [{name: "Sql"}, {name: "Mysql"}, {name: "Redis"}, {name: "Ealm"}],
+    };
+  },
   methods: {
     getScroll: function () {
       for (let i = 1; i < 10; i++) {
@@ -126,6 +174,10 @@ export default {
 </script>
 
 <style scoped>
+.hoverLang {
+  color: #1d8121 !important;
+  text-decoration: none !important;
+}
 .container-img-mobile {
   display: none;
   position: relative;
